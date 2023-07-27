@@ -162,7 +162,7 @@
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_marginStart="32.04dp"
-        android:layout_marginTop="15dp"
+        android:layout_marginTop="17dp"
         android:layout_marginEnd="32.04dp"
         android:ellipsize="end"
         android:gravity="center"
@@ -171,6 +171,6 @@
         android:singleLine="true"
         android:text="여행지 더 알아보러가기"
         android:textAllCaps="false"
-        android:textSize="18dp" />
+        android:textSize="18dp"/>
 
 </RelativeLayout>
