@@ -130,8 +130,26 @@
         android:text="검사 시작하기"
         android:textColor="@color/white_A700"
         android:textSize="8sp"
+        tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="184dp"
-        tools:layout_editor_absoluteY="439dp"
+        tools:layout_editor_absoluteY="439dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_end="152dp" />
+
+    <SeekBar
+        android:id="@+id/seekBar"
+        style="@style/Widget.AppCompat.SeekBar.Discrete"
+        android:layout_width="102dp"
+        android:layout_height="19dp"
+        android:max="4"
+        android:progress="1"
+        tools:layout_editor_absoluteX="161dp"
+        tools:layout_editor_absoluteY="555dp"
         tools:ignore="MissingConstraints" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
