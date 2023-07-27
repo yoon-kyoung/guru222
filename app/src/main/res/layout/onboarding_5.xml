@@ -21,7 +21,7 @@
         android:id="@+id/textView2"
         android:layout_width="152dp"
         android:layout_height="38dp"
-        android:fontFamily="@font/intermedium"
+        android:fontFamily="@font/interbold"
         android:text="여행지 탐색"
         android:textSize="30sp"
         tools:ignore="MissingConstraints"

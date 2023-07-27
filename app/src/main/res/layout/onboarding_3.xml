@@ -34,7 +34,7 @@
         android:id="@+id/textView2"
         android:layout_width="190dp"
         android:layout_height="46dp"
-        android:fontFamily="@font/intermedium"
+        android:fontFamily="@font/interbold"
         android:text="나의 여행 관리"
         android:textSize="30sp"
         tools:ignore="MissingConstraints"
