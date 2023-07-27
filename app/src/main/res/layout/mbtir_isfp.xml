@@ -2,7 +2,7 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/mbtiresult">
+    android:background="@drawable/isfpp">
 
     <TextView
         android:id="@+id/isfp1"
@@ -53,6 +53,7 @@
         android:layout_marginStart="103dp"
         android:layout_marginTop="-10dp"
         android:background="@color/white_A700" />
+
     <TextView
         android:id="@+id/isfp4"
         android:layout_width="wrap_content"
@@ -60,8 +61,8 @@
         android:layout_below="@+id/isfp3"
         android:layout_alignParentStart="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginStart="83dp"
-        android:layout_marginTop="83dp"
+        android:layout_marginStart="86dp"
+        android:layout_marginTop="69dp"
         android:fontFamily="@font/dmsansbold"
         android:text="예술가"
         android:textColor="@color/gray_400"
@@ -74,8 +75,8 @@
         android:layout_below="@+id/isfp3"
         android:layout_alignParentStart="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginStart="146dp"
-        android:layout_marginTop="83dp"
+        android:layout_marginStart="149dp"
+        android:layout_marginTop="69dp"
         android:fontFamily="@font/dmsansbold"
         android:text="느긋"
         android:textColor="@color/gray_400"
@@ -102,7 +103,7 @@
         android:layout_below="@+id/isfp6"
         android:layout_centerInParent="true"
         android:layout_marginStart="80dp"
-        android:layout_marginTop="0dp"
+        android:layout_marginTop="1dp"
         android:fontFamily="@font/dmsansbold"
         android:text="예술가 타입의 여행자'"
         android:textColor="@color/gray_800"
@@ -110,28 +111,58 @@
         android:textStyle="bold" />
 
     <TextView
-        android:id="@+id/isfp"
+        android:id="@+id/isfp8"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/isfp3"
-        android:layout_alignParentStart="true"
+        android:layout_below="@+id/isfp7"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="10.91dp"
+        android:fontFamily="@font/intermedium"
+        android:singleLine="true"
+        android:text="다만 종종 혼자만의 느긋한 시간이 필요"
+        android:textColor="@color/gray_800"
+        android:textSize="18dp" />
+
+    <ImageView
+        android:id="@+id/isfp9"
+        android:layout_width="180dp"
+        android:layout_height="150dp"
+        android:layout_below="@+id/isfp8"
         android:layout_centerHorizontal="true"
-        android:layout_marginStart="146dp"
-        android:layout_marginTop="83dp"
-        android:fontFamily="@font/dmsansbold"
-        android:text="느긋"
-        android:textColor="@color/gray_400"
-        android:textSize="16dp" />
+        android:layout_marginTop="5dp"
+        android:src="@drawable/bali" />
+
+    <ImageView
+        android:id="@+id/isfp10"
+        android:layout_width="180dp"
+        android:layout_height="150dp"
+        android:layout_below="@+id/isfp9"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="-14dp"
+        android:src="@drawable/danyang" />
+
+    <TextView
+        android:id="@+id/isfp11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/isfp10"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="-4dp"
+        android:fontFamily="@font/intermedium"
+        android:singleLine="true"
+        android:text="*사진을 클릭하여 자세한 여행 정보를 확인해보세요!"
+        android:textColor="@color/gray_800"
+        android:textSize="12dp" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/isfpbtn1"
-        android:layout_below="@id/isfp4"
+        android:layout_below="@id/isfp11"
         style="@style/btnSolidRounded2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_marginStart="32.04dp"
-        android:layout_marginTop="223dp"
+        android:layout_marginTop="17dp"
         android:layout_marginEnd="32.04dp"
         android:ellipsize="end"
         android:gravity="center"
@@ -140,6 +171,6 @@
         android:singleLine="true"
         android:text="여행지 더 알아보러가기"
         android:textAllCaps="false"
-        android:textSize="18dp" />
+        android:textSize="18dp"/>
 
 </RelativeLayout>
