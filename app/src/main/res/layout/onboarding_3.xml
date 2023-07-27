@@ -27,8 +27,8 @@
         android:textDecoration="underline"
         android:textSize="10dp"
         tools:ignore="MissingConstraints,TextSizeCheck"
-        tools:layout_editor_absoluteX="208dp"
-        tools:layout_editor_absoluteY="653dp" />
+        tools:layout_editor_absoluteX="201dp"
+        tools:layout_editor_absoluteY="646dp" />
 
     <TextView
         android:id="@+id/textView2"
@@ -42,13 +42,22 @@
         tools:layout_editor_absoluteY="110dp" />
 
     <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="382dp"
+        android:layout_height="252dp"
+        app:srcCompat="@drawable/MBTI1"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="272dp" />
+
+    <ImageView
         android:id="@+id/imageView"
-        android:layout_width="227dp"
-        android:layout_height="355dp"
+        android:layout_width="197dp"
+        android:layout_height="436dp"
         app:srcCompat="@drawable/phone"
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="104dp"
-        tools:layout_editor_absoluteY="258dp" />
+        tools:layout_editor_absoluteX="111dp"
+        tools:layout_editor_absoluteY="171dp" />
 
     <TextView
         android:id="@+id/textView5"
@@ -104,5 +113,16 @@
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="95dp"
         tools:layout_editor_absoluteY="179dp" />
+
+    <SeekBar
+        android:id="@+id/seekBar"
+        style="@style/Widget.AppCompat.SeekBar.Discrete"
+        android:layout_width="102dp"
+        android:layout_height="19dp"
+        android:max="4"
+        android:progress="2"
+        tools:layout_editor_absoluteX="161dp"
+        tools:layout_editor_absoluteY="555dp"
+        tools:ignore="MissingConstraints" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

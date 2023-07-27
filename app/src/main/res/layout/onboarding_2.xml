@@ -27,8 +27,8 @@
         android:textDecoration="underline"
         android:textSize="10dp"
         tools:ignore="MissingConstraints,TextSizeCheck"
-        tools:layout_editor_absoluteX="208dp"
-        tools:layout_editor_absoluteY="653dp" />
+        tools:layout_editor_absoluteX="191dp"
+        tools:layout_editor_absoluteY="650dp" />
 
     <TextView
         android:id="@+id/textView2"
@@ -42,22 +42,22 @@
         tools:layout_editor_absoluteY="112dp" />
 
     <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="170dp"
-        android:layout_height="379dp"
-        app:srcCompat="@drawable/phone"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="139dp"
-        tools:layout_editor_absoluteY="244dp" />
-
-    <ImageView
         android:id="@+id/imageView4"
-        android:layout_width="214dp"
-        android:layout_height="209dp"
+        android:layout_width="382dp"
+        android:layout_height="252dp"
         app:srcCompat="@drawable/MBTI1"
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="117dp"
-        tools:layout_editor_absoluteY="322dp" />
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="272dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="197dp"
+        android:layout_height="436dp"
+        app:srcCompat="@drawable/phone"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="111dp"
+        tools:layout_editor_absoluteY="171dp" />
 
     <TextView
         android:id="@+id/textView5"
@@ -65,20 +65,20 @@
         android:layout_height="wrap_content"
         android:fontFamily="@font/interbold"
         android:text="나의 여행 성향을 아는"
-        android:textSize="6sp"
+        android:textSize="10sp"
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="182dp"
-        tools:layout_editor_absoluteY="346dp" />
+        tools:layout_editor_absoluteX="161dp"
+        tools:layout_editor_absoluteY="311dp" />
 
     <TextView
         android:id="@+id/textView8"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="검사를 통해 나의 여행 성향을 알아보고\n추천 여행지를 확인해보세요!"
-        android:textSize="3sp"
-        tools:layout_editor_absoluteX="182dp"
-        tools:layout_editor_absoluteY="374dp"
-        tools:ignore="MissingConstraints" />
+        android:textSize="4sp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="162dp"
+        tools:layout_editor_absoluteY="349dp" />
 
     <TextView
         android:id="@+id/textView7"
@@ -86,10 +86,10 @@
         android:layout_height="wrap_content"
         android:fontFamily="@font/interbold"
         android:text=" 검사"
-        android:textSize="6sp"
+        android:textSize="10sp"
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="211dp"
-        tools:layout_editor_absoluteY="357dp" />
+        tools:layout_editor_absoluteX="207dp"
+        tools:layout_editor_absoluteY="326dp" />
 
     <TextView
         android:id="@+id/textView6"
@@ -98,10 +98,10 @@
         android:fontFamily="@font/interbold"
         android:text="여행 MBTI"
         android:textColor="@color/bluegray_600"
-        android:textSize="6sp"
+        android:textSize="10sp"
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="182dp"
-        tools:layout_editor_absoluteY="357dp" />
+        tools:layout_editor_absoluteX="162dp"
+        tools:layout_editor_absoluteY="326dp" />
 
     <TextView
         android:id="@+id/textView3"
@@ -116,10 +116,40 @@
 
     <ImageView
         android:id="@+id/imageView5"
-        android:layout_width="85dp"
-        android:layout_height="17dp"
+        android:layout_width="103dp"
+        android:layout_height="27dp"
         app:srcCompat="@drawable/frame_1"
-        tools:layout_editor_absoluteX="182dp"
-        tools:layout_editor_absoluteY="459dp" />
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="154dp"
+        tools:layout_editor_absoluteY="431dp" />
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="검사 시작하기"
+        android:textColor="@color/white_A700"
+        android:textSize="8sp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="184dp"
+        tools:layout_editor_absoluteY="439dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_end="-41dp" />
+
+    <SeekBar
+        android:id="@+id/seekBar"
+        style="@style/Widget.AppCompat.SeekBar.Discrete"
+        android:layout_width="102dp"
+        android:layout_height="19dp"
+        android:max="4"
+        android:progress="1"
+        tools:layout_editor_absoluteX="161dp"
+        tools:layout_editor_absoluteY="555dp"
+        tools:ignore="MissingConstraints" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
