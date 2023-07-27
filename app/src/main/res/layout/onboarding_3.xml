@@ -43,12 +43,12 @@
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="170dp"
-        android:layout_height="379dp"
+        android:layout_width="227dp"
+        android:layout_height="355dp"
         app:srcCompat="@drawable/phone"
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="139dp"
-        tools:layout_editor_absoluteY="244dp" />
+        tools:layout_editor_absoluteX="104dp"
+        tools:layout_editor_absoluteY="258dp" />
 
     <TextView
         android:id="@+id/textView5"
