@@ -22,4 +22,10 @@
         <item name="android:fontFamily">@font/dmsansbold</item>
         <item name="android:background">@drawable/mbtibutton3</item>
     </style>
+    <style name="btnSolidRounded4">
+        <item name="android:textSize">16dp</item>
+        <item name="android:textColor">@color/bluegray_600</item>
+        <item name="android:fontFamily">@font/dmsansbold</item>
+        <item name="android:background">@drawable/mbtibutton4</item>
+    </style>
 </resources>

@@ -14,23 +14,23 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
 
-    <TextView
-        android:id="@+id/isfp1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
-        android:layout_marginStart="80dp"
-        android:layout_marginTop="60dp"
-        android:fontFamily="@font/dmsansmedium"
-        android:text="나의 여행 MBTI는"
-        android:textColor="@color/white_A700"
-        android:textSize="30dp" />
-
                 <TextView
-                    android:id="@+id/isfp3"
+                    android:id="@+id/esfp1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_below="@+id/isfp1"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginStart="80dp"
+                    android:layout_marginTop="60dp"
+                    android:fontFamily="@font/dmsansmedium"
+                    android:text="나의 여행 MBTI는"
+                    android:textColor="@color/white_A700"
+                    android:textSize="30dp" />
+
+                <TextView
+                    android:id="@+id/esfp3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/esfp1"
                     android:layout_alignParentStart="true"
                     android:layout_centerHorizontal="true"
                     android:layout_marginStart="213dp"
@@ -41,49 +41,49 @@
                     android:textSize="30dp" />
 
                 <TextView
-                    android:id="@+id/isfp2"
+                    android:id="@+id/esfp2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_below="@+id/isfp1"
+                    android:layout_below="@+id/esfp1"
                     android:layout_alignParentStart="true"
                     android:layout_centerHorizontal="true"
                     android:layout_marginStart="115dp"
                     android:layout_marginTop="-4dp"
                     android:fontFamily="@font/dmsansbold"
-                    android:text="ISFP"
+                    android:text="ESFP"
                     android:textColor="@color/gray_400"
                     android:textSize="42dp" />
 
                 <View
-                    android:id="@+id/isfpline1"
+                    android:id="@+id/esfpline1"
                     android:layout_width="100dp"
                     android:layout_height="6dp"
-                    android:layout_below="@+id/isfp2"
+                    android:layout_below="@+id/esfp2"
                     android:layout_alignParentStart="true"
                     android:layout_marginStart="111dp"
                     android:layout_marginTop="-9dp"
                     android:background="@color/white_A700" />
 
                 <TextView
-                    android:id="@+id/isfp6"
+                    android:id="@+id/esfp6"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_below="@+id/isfp5"
+                    android:layout_below="@+id/esfp5"
                     android:layout_centerHorizontal="true"
                     android:layout_marginStart="25dp"
                     android:layout_marginTop="12dp"
                     android:fontFamily="@font/dmsansbold"
-                    android:text="'새로운 것을 시도할 준비가 된"
+                    android:text="'즉흥적인 즐거움을 추구하며"
                     android:textColor="@color/gray_800"
                     android:textSize="26dp"
                     android:textStyle="bold" />
 
                 <TextView
-                    android:id="@+id/isfp5"
+                    android:id="@+id/esfp5"
                     style="@style/btnSolidRounded4"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_below="@+id/isfp3"
+                    android:layout_below="@+id/esfp3"
                     android:layout_alignParentStart="true"
                     android:layout_centerHorizontal="true"
                     android:layout_marginStart="215dp"
@@ -93,16 +93,16 @@
                     android:paddingTop="2dp"
                     android:paddingEnd="12dp"
                     android:paddingBottom="2dp"
-                    android:text="느긋"
+                    android:text="자유"
                     android:textColor="@color/gray_400"
                     android:textSize="16dp" />
 
                 <TextView
-                    android:id="@+id/isfp4"
+                    android:id="@+id/esfp4"
                     style="@style/btnSolidRounded4"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_below="@+id/isfp3"
+                    android:layout_below="@+id/esfp3"
                     android:layout_alignParentStart="true"
                     android:layout_centerHorizontal="true"
                     android:layout_marginStart="135dp"
@@ -112,50 +112,48 @@
                     android:paddingTop="2dp"
                     android:paddingEnd="12dp"
                     android:paddingBottom="2dp"
-                    android:text="예술가"
+                    android:text="연예인"
                     android:textColor="@color/gray_400"
                     android:textSize="16dp" />
 
                 <TextView
-                    android:id="@+id/isfp8"
+                    android:id="@+id/esfp8"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_below="@+id/isfp7"
-                    android:layout_alignParentStart="true"
-                    android:layout_centerVertical="true"
-                    android:layout_marginStart="59dp"
+                    android:layout_below="@+id/esfp7"
+                    android:layout_centerHorizontal="true"
                     android:layout_marginTop="12dp"
                     android:fontFamily="@font/intermedium"
                     android:singleLine="true"
-                    android:text="다만 종종 혼자만의 느긋한 시간이 필요"
+                    android:text="시끌벅적한 분위기에서 에너지 상승!"
                     android:textColor="@color/gray_800"
                     android:textSize="18dp" />
 
                 <ImageView
-                    android:id="@+id/isfp9"
+                    android:id="@+id/esfp9"
                     android:layout_width="180dp"
                     android:layout_height="150dp"
-                    android:layout_below="@+id/isfp8"
+                    android:layout_below="@+id/esfp8"
                     android:layout_alignParentStart="true"
                     android:layout_marginStart="111dp"
                     android:layout_marginTop="7dp"
                     android:src="@drawable/bali" />
 
                 <ImageView
-                    android:id="@+id/isfp10"
+                    android:id="@+id/esfp10"
                     android:layout_width="180dp"
                     android:layout_height="150dp"
-                    android:layout_below="@+id/isfp9"
+                    android:layout_below="@+id/esfp9"
                     android:layout_alignParentStart="true"
                     android:layout_marginStart="111dp"
                     android:layout_marginTop="-13dp"
                     android:src="@drawable/danyang" />
 
                 <TextView
-                    android:id="@+id/isfp11"
+                    android:id="@+id/esfp11"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_below="@+id/isfp10"
+                    android:layout_below="@+id/esfp10"
                     android:layout_alignParentStart="true"
                     android:layout_centerVertical="true"
                     android:layout_marginStart="73dp"
@@ -167,11 +165,11 @@
                     android:textSize="12dp" />
 
                 <androidx.appcompat.widget.AppCompatButton
-                    android:id="@+id/isfpbtn1"
+                    android:id="@+id/esfpbtn1"
                     style="@style/btnSolidRounded2"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_below="@id/isfp11"
+                    android:layout_below="@id/esfp11"
                     android:layout_centerHorizontal="true"
                     android:layout_marginStart="32.04dp"
                     android:layout_marginTop="30dp"
@@ -186,15 +184,15 @@
                     android:textSize="18dp" />
 
                 <TextView
-                    android:id="@+id/isfp7"
+                    android:id="@+id/esfp7"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_below="@+id/isfp6"
+                    android:layout_below="@+id/esfp6"
                     android:layout_centerInParent="true"
                     android:layout_marginStart="80dp"
                     android:layout_marginTop="-4dp"
                     android:fontFamily="@font/dmsansbold"
-                    android:text="예술가 타입의 여행자'"
+                    android:text="스포트라이트를 즐기는 여행자'"
                     android:textColor="@color/gray_800"
                     android:textSize="25dp"
                     android:textStyle="bold" />
