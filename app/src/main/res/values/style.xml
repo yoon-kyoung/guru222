@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="txtInterbold32_1">
+        <item name="android:textColor">@color/bluegray_600</item>
+        <item name="android:fontFamily">@font/inter</item>
+    </style>
+    <style name="btnSolidRounded">
+        <item name="android:textSize">16dp</item>
+        <item name="android:textColor">@color/white_A701</item>
+        <item name="android:fontFamily">@font/dmsansbold</item>
+        <item name="android:background">@drawable/mbtibutton</item>
+    </style>
+    <style name="btnSolidRounded2">
+        <item name="android:textSize">16dp</item>
+        <item name="android:textColor">@color/white_A701</item>
+        <item name="android:fontFamily">@font/dmsansbold</item>
+        <item name="android:background">@drawable/mbtibutton2</item>
+    </style>
+</resources>

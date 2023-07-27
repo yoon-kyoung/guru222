@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="28dp"
+        android:layout_marginTop="45dp"
+        android:fontFamily="@font/intermedium"
+        android:text="이전"
+        android:textColor="@color/gray_700"
+        android:textSize="20dp" />
+
+    <ImageView
+        android:id="@+id/mbtip1"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="155dp"
+        android:src="@drawable/running" />
+
+    <TextView
+        android:id="@+id/mbtin1"
+        android:layout_below="@+id/mbtip1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="37dp"
+        android:fontFamily="@font/dmsansbold"
+        android:text="8/12"
+        android:textColor="@color/gray_400"
+        android:textSize="20dp" />
+    <TextView
+        android:id="@+id/mbtit1"
+        android:layout_below="@+id/mbtin1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="9.5dp"
+        android:fontFamily="@font/dmsansbold"
+        android:textStyle="bold"
+        android:text="아침에 늦잠을 잔 친구에게"
+        android:textColor="@color/gray_800"
+        android:textSize="28dp" />
+    <View
+        android:background="@color/gray_400"
+        android:id="@+id/mbtiline1"
+        android:layout_below="@+id/mbtit1"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="5dp"
+        android:layout_marginTop="0.95dp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="320dp"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/mbtibtn1"
+        style="@style/btnSolidRounded"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mbtiline1"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:layout_marginStart="32.04dp"
+        android:layout_marginEnd="32.04dp"
+        android:layout_marginTop="34.05dp"
+        android:paddingTop="14.19dp"
+        android:paddingBottom="14.19dp"
+        android:singleLine="true"
+        android:text="여행이 역시 피곤하지"
+        android:textSize="18dp"
+        android:textAllCaps="false"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/mbtibtn2"
+        style="@style/btnSolidRounded"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mbtibtn1"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:layout_marginStart="32.04dp"
+        android:layout_marginEnd="32.04dp"
+        android:layout_marginTop="11.35dp"
+        android:paddingTop="14.19dp"
+        android:paddingBottom="14.19dp"
+        android:singleLine="true"
+        android:text="내일은 시간 지키자"
+        android:textSize="18dp"
+        android:textAllCaps="false"/>
+
+
+</RelativeLayout>

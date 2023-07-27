@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/MBTI1">
+
+    <TextView
+        android:id="@+id/first"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="102dp"
+        android:fontFamily="@font/interbold"
+        android:text="나의 여행 성향을 아는"
+        android:textColor="@color/gray_800"
+        android:textSize="32dp" />
+
+    <TextView
+        android:id="@+id/second1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/first"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="190dp"
+        android:layout_marginTop="-6dp"
+        android:fontFamily="@font/interbold"
+        android:text="검사"
+        android:textColor="@color/gray_800"
+        android:textSize="32dp" />
+
+    <TextView
+        android:id="@+id/second"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/first"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="-6dp"
+        android:fontFamily="@font/interbold"
+        android:text="여행 MBTI"
+        android:textColor="@color/bluegray_600"
+        android:textSize="32dp" />
+
+    <TextView
+        android:id="@+id/third"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/second"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="37dp"
+        android:layout_marginTop="35dp"
+        android:text="검사를 통해 나의 여행 성향을 알아보고"
+        android:textColor="@color/gray_600"
+        android:textSize="14dp" />
+
+    <TextView
+        android:id="@+id/four"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/third"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="37dp"
+        android:layout_marginTop="-2dp"
+        android:text="추천 여행지를 확인해보세요!"
+        android:textColor="@color/gray_600"
+        android:textSize="14dp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/mbtistartbtn1"
+        style="@style/btnSolidRounded"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/four"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="32.04dp"
+        android:layout_marginTop="223dp"
+        android:layout_marginEnd="32.04dp"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:paddingTop="18dp"
+        android:paddingBottom="18dp"
+        android:singleLine="true"
+        android:text="검사 시작하기"
+        android:textAllCaps="false"
+        android:textSize="18dp" />
+</RelativeLayout>

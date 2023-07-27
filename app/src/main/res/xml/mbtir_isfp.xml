@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mbtiresult">
+
+    <TextView
+        android:id="@+id/isfp1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="47dp"
+        android:fontFamily="@font/dmsansmedium"
+        android:text="나의 여행 MBTI는"
+        android:textColor="@color/white_A700"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/isfp2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/isfp1"
+        android:layout_alignParentStart="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="107dp"
+        android:layout_marginTop="-6dp"
+        android:fontFamily="@font/dmsansbold"
+        android:text="ISFP"
+        android:textColor="@color/gray_400"
+        android:textSize="42dp" />
+
+    <TextView
+        android:id="@+id/isfp3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/isfp1"
+        android:layout_alignParentStart="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="205dp"
+        android:layout_marginTop="-4dp"
+        android:fontFamily="@font/dmsansmedium"
+        android:text="입니다."
+        android:textColor="@color/white_A700"
+        android:textSize="30dp" />
+
+    <View
+        android:id="@+id/isfpline1"
+        android:layout_width="100dp"
+        android:layout_height="6dp"
+        android:layout_below="@+id/isfp2"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="103dp"
+        android:layout_marginTop="-10dp"
+        android:background="@color/white_A700" />
+    <TextView
+        android:id="@+id/isfp4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/isfp3"
+        android:layout_alignParentStart="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="83dp"
+        android:layout_marginTop="83dp"
+        android:fontFamily="@font/dmsansbold"
+        android:text="예술가"
+        android:textColor="@color/gray_400"
+        android:textSize="16dp" />
+
+    <TextView
+        android:id="@+id/isfp5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/isfp3"
+        android:layout_alignParentStart="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="146dp"
+        android:layout_marginTop="83dp"
+        android:fontFamily="@font/dmsansbold"
+        android:text="느긋"
+        android:textColor="@color/gray_400"
+        android:textSize="16dp" />
+
+    <TextView
+        android:id="@+id/isfp6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/isfp5"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="9dp"
+        android:fontFamily="@font/dmsansbold"
+        android:text="'새로운 것을 시도할 준비가 된"
+        android:textColor="@color/gray_800"
+        android:textSize="26dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/isfp7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/isfp6"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="0dp"
+        android:fontFamily="@font/dmsansbold"
+        android:text="예술가 타입의 여행자'"
+        android:textColor="@color/gray_800"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/isfp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/isfp3"
+        android:layout_alignParentStart="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="146dp"
+        android:layout_marginTop="83dp"
+        android:fontFamily="@font/dmsansbold"
+        android:text="느긋"
+        android:textColor="@color/gray_400"
+        android:textSize="16dp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/isfpbtn1"
+        android:layout_below="@id/isfp4"
+        style="@style/btnSolidRounded2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="32.04dp"
+        android:layout_marginTop="223dp"
+        android:layout_marginEnd="32.04dp"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:paddingTop="14.19dp"
+        android:paddingBottom="14.19dp"
+        android:singleLine="true"
+        android:text="여행지 더 알아보러가기"
+        android:textAllCaps="false"
+        android:textSize="18dp" />
+
+</RelativeLayout>
