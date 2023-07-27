@@ -112,7 +112,7 @@
                 android:layout_below="@+id/my6"
                 android:layout_marginStart="55dp"
                 android:layout_marginTop="11dp"
-                android:src="@drawable/tk" />
+                android:src="@drawable/tk"/>
             <ImageView
                 android:id="@+id/my9"
                 android:layout_width="40dp"
