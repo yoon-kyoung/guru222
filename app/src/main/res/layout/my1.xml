@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/my1">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+    <ImageView
+        android:id="@+id/my1"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/isfppicture" />
+    <TextView
+        android:id="@+id/my2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/my1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="107dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/dmsansbold"
+        android:text="ISFP"
+        android:textColor="@color/white_A700"
+        android:textSize="42dp" />
+
+            <TextView
+                android:id="@+id/my3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/my2"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/interbold"
+                android:singleLine="true"
+                android:text="'새로운 것을 시도할 준비가 된 예술가 타입의 여행자'"
+                android:textColor="@color/gray_400"
+                android:textSize="16dp" />
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/mybtn1"
+        android:layout_below="@id/my3"
+        style="@style/btnSolidRounded2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginEnd="45dp"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:paddingTop="12dp"
+        android:paddingBottom="12dp"
+        android:singleLine="true"
+        android:text="추천 여행지 보러가기"
+        android:textAllCaps="false"
+        android:textSize="17dp"/>
+    <TextView
+        android:id="@+id/my4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mybtn1"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="65dp"
+        android:fontFamily="@font/interbold"
+        android:text="나의 여행 계획"
+        android:textColor="@color/gray_800"
+        android:textSize="22dp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/my5"
+        android:layout_width="350dp"
+        android:layout_height="250dp"
+        android:layout_below="@+id/my4"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="4dp"
+        android:src="@drawable/mybali" />
+    <TextView
+        android:id="@+id/my6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/my5"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/interbold"
+        android:text="저장한 여행지"
+        android:textColor="@color/gray_800"
+        android:textSize="22dp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/my7"
+        android:layout_width="350dp"
+        android:layout_height="180dp"
+        android:layout_below="@+id/my6"
+        android:layout_marginStart="-85dp"
+        android:layout_marginTop="11dp"
+        android:src="@drawable/lv" />
+            <ImageView
+                android:id="@+id/my8"
+                android:layout_width="350dp"
+                android:layout_height="180dp"
+                android:layout_below="@+id/my6"
+                android:layout_marginStart="55dp"
+                android:layout_marginTop="11dp"
+                android:src="@drawable/tk" />
+            <ImageView
+                android:id="@+id/my9"
+                android:layout_width="40dp"
+                android:layout_height="180dp"
+                android:layout_below="@+id/my6"
+                android:layout_marginStart="325dp"
+                android:layout_marginTop="11dp"
+                android:src="@drawable/plus" />
+            <TextView
+                android:id="@+id/my10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/my7"
+                android:layout_marginStart="25dp"
+                android:layout_marginTop="30dp"
+                android:fontFamily="@font/interbold"
+                android:text="나의 여행 기록"
+                android:textColor="@color/gray_800"
+                android:textSize="22dp"
+                android:textStyle="bold" />
+            <ImageView
+                android:id="@+id/myicon2"
+                android:layout_width="35dp"
+                android:layout_height="40dp"
+                android:layout_below="@+id/my10"
+                android:layout_marginStart="27dp"
+                android:layout_marginTop="5dp"
+                android:src="@drawable/heart" />
+            <TextView
+                android:id="@+id/my12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/my10"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/intermedium"
+                android:singleLine="true"
+                android:text="2023년 01월 1일 - 2023년 01월 05일"
+                android:textColor="@color/gray_800"
+                android:textSize="15dp" />
+            <TextView
+                android:id="@+id/my13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/my12"
+                android:layout_marginTop="0dp"
+                android:layout_marginStart="83dp"
+                android:fontFamily="@font/interbold"
+                android:singleLine="true"
+                android:text="일본 도쿄"
+                android:textColor="@color/gray_800"
+                android:textSize="15dp" />
+            <View
+                android:background="@color/bluegray_600"
+                android:id="@+id/myline1"
+                android:layout_below="@+id/my13"
+                android:layout_height="35dp"
+                android:layout_marginTop="3dp"
+                android:layout_marginStart="43dp"
+                android:layout_width="3dp"/>
+            <ImageView
+                android:id="@+id/myicon1"
+                android:layout_width="35dp"
+                android:layout_height="40dp"
+                android:layout_below="@+id/myline1"
+                android:layout_marginStart="27dp"
+                android:layout_marginTop="3dp"
+                android:src="@drawable/heart" />
+
+            <TextView
+                android:id="@+id/my14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/myline1"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="3dp"
+                android:fontFamily="@font/intermedium"
+                android:singleLine="true"
+                android:text="2023년 03월 23일 - 2023년 03월 27일"
+                android:textColor="@color/gray_800"
+                android:textSize="15dp" />
+            <TextView
+                android:id="@+id/my15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/my14"
+                android:layout_marginTop="0dp"
+                android:layout_marginStart="83dp"
+                android:fontFamily="@font/interbold"
+                android:singleLine="true"
+                android:text="중국 상하이"
+                android:textColor="@color/gray_800"
+                android:textSize="15dp" />
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/mybtn2"
+                android:layout_below="@id/my15"
+                style="@style/btnSolidRounded3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginStart="40dp"
+                android:layout_marginTop="18dp"
+                android:layout_marginEnd="40dp"
+                android:layout_marginBottom="25dp"
+                android:ellipsize="end"
+                android:gravity="center"
+                android:singleLine="true"
+                android:text="여행기록 남기기"
+                android:textAllCaps="false"
+                android:textSize="15dp"/>
+
+        </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
