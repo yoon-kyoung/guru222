@@ -21,21 +21,14 @@
         android:id="@+id/textView4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
         android:fontFamily="@font/inter"
         android:text="건너뛰기"
         android:textColor="@color/gray_700"
         android:textSize="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
         tools:ignore="MissingConstraints,TextSizeCheck"
-        tools:layout_editor_absoluteX="191dp"
-        tools:layout_editor_absoluteY="650dp" />
-    <View
-        android:id="@+id/mbtiline1"
-        android:layout_width="40dp"
-        android:layout_height="1dp"
-        android:background="@color/gray_700"
-        app:layout_constraintTop_toBottomOf="@id/textView4"
-        app:layout_constraintStart_toStartOf="@id/textView4"
-        app:layout_constraintEnd_toEndOf="@id/textView22" />
+        tools:layout_editor_absoluteX="191dp" />
 
     <TextView
         android:id="@+id/textView2"
