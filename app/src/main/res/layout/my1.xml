@@ -138,9 +138,9 @@
                 android:layout_width="35dp"
                 android:layout_height="40dp"
                 android:layout_below="@+id/my10"
-                android:layout_marginStart="27dp"
+                android:layout_marginStart="26dp"
                 android:layout_marginTop="5dp"
-                android:src="@drawable/heart" />
+                android:src="@drawable/t" />
             <TextView
                 android:id="@+id/my12"
                 android:layout_width="wrap_content"
