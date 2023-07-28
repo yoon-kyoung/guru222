@@ -2,8 +2,8 @@ package com.example.myapplication
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.google.firebase.auth.FirebaseAuth
-import com.google.firebase.database.DatabaseReference
+//import com.google.firebase.auth.FirebaseAuth
+//import com.google.firebase.database.DatabaseReference
 
 class ChatActivity : AppCompatActivity() {
 
@@ -13,8 +13,8 @@ class ChatActivity : AppCompatActivity() {
 //    //바인딩 객체
 //    private lateinit var binding: ActivityChatBinding
 
-    lateinit var mAuth: FirebaseAuth //인증 객체
-    lateinit var mDbRef: DatabaseReference//DB 객체
+   // lateinit var mAuth: FirebaseAuth //인증 객체
+    //lateinit var mDbRef: DatabaseReference//DB 객체
     
     private lateinit var receiverRoom: String //받는 대화방
     private lateinit var senderRoom: String //보낸 대화방
@@ -30,13 +30,13 @@ class ChatActivity : AppCompatActivity() {
         receiverUid = intent.getStringExtra("uId").toString()
 
         //접속자 uId
-        val senderUid = mAuth.currentUser?.uid
+       // val senderUid = mAuth.currentUser?.uid
 
         //보낸이방
-        senderRoom = receiverUid + senderUid
+       // senderRoom = receiverUid + senderUid
 
         //받는이방
-        receiverRoom = senderUid + receiverUid
+       // receiverRoom = senderUid + receiverUid
 
         //액션바에 상대방 이름 보여주기
         supportActionBar?.title = receiverName

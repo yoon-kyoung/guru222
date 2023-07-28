@@ -86,4 +86,22 @@
         android:text="검사 시작하기"
         android:textAllCaps="false"
         android:textSize="18dp" />
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_below="@+id/mbtistartbtn1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/inter"
+        android:text="건너뛰기"
+        android:textColor="@color/gray_700"
+        android:textSize="16dp" />
+    <View
+        android:id="@+id/mbtiline1"
+        android:layout_width="60dp"
+        android:layout_height="1dp"
+        android:background="@color/gray_700"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/textView4"/>
 </RelativeLayout>
