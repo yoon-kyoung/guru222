@@ -137,7 +137,7 @@
                     android:layout_alignParentStart="true"
                     android:layout_marginStart="111dp"
                     android:layout_marginTop="7dp"
-                    android:src="@drawable/bali" />
+                    android:src="@drawable/swiss" />
 
                 <ImageView
                     android:id="@+id/esfp10"
@@ -147,7 +147,7 @@
                     android:layout_alignParentStart="true"
                     android:layout_marginStart="111dp"
                     android:layout_marginTop="-13dp"
-                    android:src="@drawable/danyang" />
+                    android:src="@drawable/male" />
 
                 <TextView
                     android:id="@+id/esfp11"
