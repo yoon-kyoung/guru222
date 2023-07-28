@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+    <LinearLayout android:id="@+id/linearColumnline166"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="10dp"
+            android:layout_width="match_parent" android:orientation="vertical">
+
+            <LinearLayout
+                android:gravity="center_horizontal"
+                android:id="@+id/linearColumnfifty"
+                android:layout_height="50dp"
+                android:layout_width="match_parent"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/BarText3"
+                    android:textStyle="bold"
+                    style="@style/txtInterbold18"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="145dp"
+                    android:layout_marginTop="11dp"
+                    android:layout_marginEnd="145dp"
+                    android:text="회원가입" />
+            </LinearLayout>
+
+            <View
+                android:background="@color/lime_400"
+                android:id="@+id/lineLine2"
+                android:layout_height="1dp"
+                android:layout_width="144dp"/>
+
+            <TextView
+                android:id="@+id/TitleText1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="28dp"
+                android:layout_marginTop="35dp"
+                style="@style/txtInterbold18"
+                android:textStyle="bold"
+                android:text="휴대폰 본인 인증"/>
+
+            <TextView
+                android:id="@+id/sTitleText1"
+                android:layout_gravity="start"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="27dp"
+                android:layout_marginTop="36dp"
+                android:layout_width="wrap_content"
+                style="@style/txtInterbold14"
+                android:text="이름"/>
+
+            <EditText
+                android:background="@drawable/rectangle_border_gray_401_radius_7"
+                android:id="@+id/editName"
+                android:inputType="text"
+                android:layout_height="50dp"
+                android:layout_marginEnd="27.47dp"
+                android:layout_marginStart="24dp"
+                android:layout_marginTop="14dp"
+                android:layout_width="match_parent"/>
+
+            <TextView
+                android:id="@+id/sTitleText2"
+                android:layout_gravity="start"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="27dp"
+                android:layout_marginTop="36dp"
+                android:layout_width="wrap_content"
+                style="@style/txtInterbold14"
+                android:text="주민등록번호"/>
+
+            <LinearLayout android:gravity="start"
+                android:id="@+id/Number"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="24dp"
+                android:layout_marginStart="24dp"
+                android:layout_marginTop="14dp"
+                android:layout_width="match_parent"
+                android:orientation="horizontal">
+                <EditText
+                    android:background="@drawable/rectangle_border_gray_401_radius_7"
+                    android:id="@+id/editNumber1"
+                    android:inputType="text"
+                    android:layout_height="50dp"
+                    android:layout_weight="0.57"
+                    android:layout_width="0dp"/>
+
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="4dp"
+                    android:layout_weight="0.03"
+                    android:layout_width="0dp"
+                    style="@style/txtInterregular14_1"
+                    tools:text="-"/>
+
+                <EditText
+                    android:background="@drawable/rectangle_border_gray_401_radius_7"
+                    android:id="@+id/editNumber2"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="3dp"
+                    android:layout_width="23dp"/>
+
+                <View
+                    android:background="@drawable/rectangle_bg_bluegray_100_radius_6_5"
+                    android:id="@+id/viewEllipse1"
+                    android:layout_height="15dp"
+                    android:layout_marginBottom="16dp"
+                    android:layout_marginStart="9dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_width="15dp"/>
+
+                <View
+                    android:background="@drawable/rectangle_bg_bluegray_100_radius_6_5"
+                    android:id="@+id/viewEllipse2"
+                    android:layout_height="15dp"
+                    android:layout_marginBottom="16dp"
+                    android:layout_marginStart="9dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_width="15dp"/>
+                <View
+                    android:background="@drawable/rectangle_bg_bluegray_100_radius_6_5"
+                    android:id="@+id/viewEllipse3"
+                    android:layout_height="15dp"
+                    android:layout_marginBottom="16dp"
+                    android:layout_marginStart="9dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_width="15dp"/>
+                <View
+                    android:background="@drawable/rectangle_bg_bluegray_100_radius_6_5"
+                    android:id="@+id/viewEllipse4"
+                    android:layout_height="15dp"
+                    android:layout_marginBottom="16dp"
+                    android:layout_marginStart="9dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_width="15dp"/>
+                <View
+                    android:background="@drawable/rectangle_bg_bluegray_100_radius_6_5"
+                    android:id="@+id/viewEllipse5"
+                    android:layout_height="15dp"
+                    android:layout_marginBottom="16dp"
+                    android:layout_marginStart="9dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_width="15dp"/>
+                <View
+                    android:background="@drawable/rectangle_bg_bluegray_100_radius_6_5"
+                    android:id="@+id/viewEllipse6"
+                    android:layout_height="15dp"
+                    android:layout_marginBottom="16dp"
+                    android:layout_marginStart="9dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_width="15dp"/>
+             </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearRowgrouptwentyfive"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="24dp"
+                android:layout_marginStart="24dp"
+                android:layout_marginTop="14dp"
+                android:layout_width="match_parent"
+                android:orientation="horizontal"/>
+
+            <androidx.appcompat.widget.AppCompatButton
+                style="@style/btnSolidRounded"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="10dp"
+                android:ellipsize="end"
+                android:gravity="center"
+                android:paddingTop="14.19dp"
+                android:paddingBottom="14.19dp"
+                android:singleLine="true"
+                android:text="다음"
+                android:textAllCaps="false"
+                android:textSize="18dp" />
+        </LinearLayout>
+</layout>

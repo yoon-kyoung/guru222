@@ -207,10 +207,38 @@
 
     <com.google.android.material.bottomappbar.BottomAppBar
         android:id="@+id/bottomAppBar"
-        android:layout_width="404dp"
-        android:layout_height="85dp"
+        android:layout_width="419dp"
+        android:layout_height="92dp"
         android:layout_gravity="bottom"
-        tools:layout_editor_absoluteX="4dp"
-        tools:layout_editor_absoluteY="650dp" />
+        tools:layout_editor_absoluteX="-2dp"
+        tools:layout_editor_absoluteY="643dp"
+        tools:ignore="BottomAppBar,MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="나의여행"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="50dp"
+        tools:layout_editor_absoluteY="696dp" />
+
+    <TextView
+        android:id="@+id/textView25"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="탐색하기"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="179dp"
+        tools:layout_editor_absoluteY="696dp" />
+
+    <TextView
+        android:id="@+id/textView26"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="환경설정"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="309dp"
+        tools:layout_editor_absoluteY="696dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

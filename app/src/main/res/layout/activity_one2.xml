@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+
+    <LinearLayout android:id="@+id/linearOne"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical" style="@style/groupStylewhite_A700">
+        <LinearLayout
+            android:gravity="center_horizontal"
+            android:id="@+id/linearColumnfifty"
+            android:layout_height="50dp"
+            android:layout_width="match_parent"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/BarText3"
+                android:textStyle="bold"
+                style="@style/txtInterbold18"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginStart="145dp"
+                android:layout_marginTop="11dp"
+                android:layout_marginEnd="145dp"
+                android:text="회원가입" />
+        </LinearLayout>
+
+        <View android:background="@color/lime_400"
+            android:id="@+id/lineLine1"
+            android:layout_gravity="start"
+            android:layout_height="0.95dp"
+            android:layout_marginEnd="11.44dp"
+            android:layout_width="105.29dp"/>
+
+        <TextView
+            android:id="@+id/TitleText1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="28dp"
+            android:layout_marginTop="35dp"
+            style="@style/txtInterbold18"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:text="환영합니다!"/>
+        <TextView
+            android:id="@+id/TitleText2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="28dp"
+            style="@style/txtInterbold18"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:text="약관에 동의해주세요"/>
+
+        <RadioGroup android:gravity="start"
+            android:id="@+id/rgRadiogroupfortysix"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="31dp"
+            android:layout_marginStart="31dp"
+            android:layout_marginTop="37.83dp"
+            android:layout_width="match_parent"
+            android:orientation="vertical">
+
+            <CheckBox
+                android:id="@+id/radioAll"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:buttonTint="@color/bluegray_600"
+                android:paddingStart="7dp"
+                android:text="약관 전체 동의하기"
+                android:textColor="@color/gray_800"
+                android:textSize="18.38dp"/>
+
+            <CheckBox
+                android:buttonTint="@color/bluegray_101"
+                android:id="@+id/radio1"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="13.24dp"
+                android:layout_width="wrap_content"
+                android:lineSpacingExtra="3.43dp"
+                android:paddingStart="6.87dp"
+                android:singleLine="true"
+                android:text="[필수] 만 14세 이상입니다."
+                android:textColor="@color/gray_800"
+                android:textFontWeight="400"
+                android:textSize="16.02dp"/>
+
+            <CheckBox
+                android:buttonTint="@color/bluegray_101"
+                android:id="@+id/radio2"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="13.24dp"
+                android:layout_width="wrap_content"
+                android:lineSpacingExtra="3.43dp"
+                android:paddingStart="6.87dp"
+                android:singleLine="true"
+                android:text="[필수] 서비스 이용 약관 동의"
+                android:textColor="@color/gray_800"
+                android:textFontWeight="400"
+                android:textSize="16.02dp"/>
+
+            <CheckBox
+                android:buttonTint="@color/bluegray_101"
+                android:id="@+id/radio3"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="13.24dp"
+                android:layout_width="wrap_content"
+                android:lineSpacingExtra="3.43dp"
+                android:paddingStart="6.87dp"
+                android:singleLine="true"
+                android:text="[필수] 개인정보 수집 및 이용 동의"
+                android:textColor="@color/gray_800"
+                android:textFontWeight="400"
+                android:textSize="16.02dp"/>
+
+            <CheckBox
+                android:buttonTint="@color/bluegray_101"
+                android:id="@+id/radio4"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="13.24dp"
+                android:layout_width="wrap_content"
+                android:lineSpacingExtra="3.43dp"
+                android:paddingStart="6.87dp"
+                android:singleLine="true"
+                android:text="[선택] 광고성 정보 수신 동의"
+                android:textColor="@color/gray_800"
+                android:textFontWeight="400"
+                android:textSize="16.02dp"/>
+
+        </RadioGroup>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/mbtibtn2"
+            style="@style/btnSolidRounded"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/mbtibtn1"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="40dp"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:paddingTop="14.19dp"
+            android:paddingBottom="14.19dp"
+            android:singleLine="true"
+            android:text="다음"
+            android:textAllCaps="false"
+            android:textSize="18dp" />
+    </LinearLayout>
+</layout>
