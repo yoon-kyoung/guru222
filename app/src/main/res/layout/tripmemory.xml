@@ -121,6 +121,15 @@
                         android:fontFamily="@font/intermedium"
                         android:textColor="@color/gray_800"
                         android:textSize="16dp" />
+                    <View
+                        android:background="@color/bluegray_600"
+                        android:id="@+id/tmline1"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_height="4dp"
+                        android:layout_marginTop="-8dp"
+                        android:layout_marginBottom="20dp"
+                        android:layout_centerHorizontal="true"
+                        android:layout_width="270dp"/>
                     <CalendarView
                         android:background="@drawable/calenbutton"
                         android:layout_width="match_parent"
@@ -166,6 +175,83 @@
                     android:fontFamily="@font/interbold"
                     android:textSize="18dp"
                     android:text="기록을 남겨보세요!"/>
+                <Button
+                    android:id="@+id/mt10"
+                    android:layout_below="@+id/mt9"
+                    android:layout_marginTop="14dp"
+                    android:layout_marginStart="35dp"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"/>
+                <Button
+                    android:id="@+id/mt11"
+                    android:layout_below="@+id/mt9"
+                    android:layout_marginTop="14dp"
+                    android:layout_marginStart="105dp"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"/>
+                <Button
+                    android:id="@+id/mt12"
+                    android:layout_below="@+id/mt9"
+                    android:layout_marginTop="14dp"
+                    android:layout_marginStart="175dp"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"/>
+                <Button
+                    android:id="@+id/mt13"
+                    android:layout_below="@+id/mt9"
+                    android:layout_marginTop="14dp"
+                    android:layout_marginStart="245dp"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"/>
+                <Button
+                    android:id="@+id/mt14"
+                    android:layout_below="@+id/mt9"
+                    android:layout_marginTop="14dp"
+                    android:layout_marginStart="315dp"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"/>
+                <LinearLayout android:id="@+id/linearRowrectangle4412"
+                    android:layout_below="@+id/mt14"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="29.76dp"
+                    android:layout_marginStart="29.76dp"
+                    android:layout_marginTop="14dp"
+                    android:layout_width="match_parent" android:orientation="horizontal">
+
+                    <EditText
+                        android:id="@+id/mt15"
+                        android:background="@drawable/calenbutton"
+                        android:layout_height="300dp"
+                        android:layout_weight="0.78"
+                        android:layout_width="0dp"/>
+
+                </LinearLayout>
+                <ImageView
+                    android:id="@+id/mt16"
+                    android:layout_below="@+id/mt14"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:layout_marginStart="320dp"
+                    android:layout_marginTop="260dp"
+                    android:src="@drawable/photo" />
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/mtbtn1"
+                    style="@style/btnSolidRounded"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/linearRowrectangle4412"
+                    android:ellipsize="end"
+                    android:gravity="center"
+                    android:layout_marginStart="32.04dp"
+                    android:layout_marginEnd="32.04dp"
+                    android:layout_marginBottom="30dp"
+                    android:layout_marginTop="30dp"
+                    android:paddingTop="14.19dp"
+                    android:paddingBottom="14.19dp"
+                    android:singleLine="true"
+                    android:text="여행기록 남기기"
+                    android:textSize="18dp"
+                    android:textAllCaps="false"/>
 
 
             </RelativeLayout>
