@@ -105,14 +105,14 @@
 
     <TextView
         android:id="@+id/textView3"
-        android:layout_width="236dp"
-        android:layout_height="79dp"
+        android:layout_width="355dp"
+        android:layout_height="75dp"
         android:gravity="center"
-        android:text="원하는 여행을 저장하고, 계획하고\n기록해보세요"
+        android:text="계획한 여행, 저장한 여행, 다녀온 여행 기록을\n한번에 관리해보세요"
         android:textSize="17sp"
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="95dp"
-        tools:layout_editor_absoluteY="179dp" />
+        tools:layout_editor_absoluteX="43dp"
+        tools:layout_editor_absoluteY="171dp" />
 
     <SeekBar
         android:id="@+id/seekBar"

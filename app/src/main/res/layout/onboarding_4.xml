@@ -32,21 +32,21 @@
 
     <TextView
         android:id="@+id/textView2"
-        android:layout_width="190dp"
-        android:layout_height="46dp"
+        android:layout_width="232dp"
+        android:layout_height="50dp"
         android:fontFamily="@font/interbold"
-        android:text="여행계획 공유"
+        android:text="여행 기록 남기기"
         android:textSize="30sp"
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="119dp"
-        tools:layout_editor_absoluteY="110dp" />
+        tools:layout_editor_absoluteX="99dp"
+        tools:layout_editor_absoluteY="114dp" />
 
     <TextView
         android:id="@+id/textView3"
         android:layout_width="236dp"
         android:layout_height="79dp"
         android:gravity="center"
-        android:text="내가 세운 여행 계획을\n 친구들과 공유해보세요"
+        android:text="다녀온 여행지를 아이콘과 사진, \n 그리고 나만의 글로 기록해보세요"
         android:textSize="17sp"
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="95dp"
