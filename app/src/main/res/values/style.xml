@@ -49,4 +49,10 @@
         <item name="android:textColor">@color/black</item>
         <item name="android:fontFamily">@font/inter</item>
     </style>
+
+    <style name="txtIntermedium12">
+        <item name="android:textSize">12dp</item>
+        <item name="android:textColor">@color/bluegray_600</item>
+        <item name="android:fontFamily">@font/inter</item>
+    </style>
 </resources>
