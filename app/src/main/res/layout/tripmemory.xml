@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/tm1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/interbold"
+        android:text="여행기록 남기기"
+        android:textColor="@color/gray_800"
+        android:textSize="22dp"
+        android:textStyle="bold"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/mt2"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="85dp"
+                    android:layout_marginStart="28dp"
+                    android:layout_width="wrap_content"
+                    android:textStyle="bold"
+                    android:fontFamily="@font/interbold"
+                    android:textSize="18dp"
+                    android:text="여행 제목"/>
+
+                <LinearLayout android:id="@+id/linearRowrectangle4407"
+                    android:layout_below="@+id/mt2"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="29.76dp"
+                    android:layout_marginStart="29.76dp"
+                    android:layout_marginTop="14dp"
+                    android:layout_width="match_parent" android:orientation="horizontal">
+
+                    <EditText
+                        android:id="@+id/mt3"
+                        android:background="@drawable/rectangle_border_gray_401_radius_7"
+                        android:layout_height="50dp"
+                        android:layout_weight="0.78"
+                        android:layout_width="0dp"/>
+
+                </LinearLayout>
+                <TextView
+                    android:id="@+id/mt4"
+                    android:layout_below="@id/mt2"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="90dp"
+                    android:layout_marginStart="28dp"
+                    android:layout_width="wrap_content"
+                    android:textStyle="bold"
+                    android:fontFamily="@font/interbold"
+                    android:textSize="18dp"
+                    android:text="여행지"/>
+
+                <LinearLayout android:id="@+id/linearRowrectangle4408"
+                    android:layout_below="@+id/mt4"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="29.76dp"
+                    android:layout_marginStart="29.76dp"
+                    android:layout_marginTop="14dp"
+                    android:layout_width="match_parent" android:orientation="horizontal">
+
+                    <EditText
+                        android:id="@+id/mt5"
+                        android:background="@drawable/rectangle_border_gray_401_radius_7"
+                        android:layout_height="50dp"
+                        android:layout_weight="0.78"
+                        android:layout_width="0dp"/>
+
+                </LinearLayout>
+                <TextView
+                    android:id="@+id/mt6"
+                    android:layout_below="@id/mt4"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="90dp"
+                    android:layout_marginStart="28dp"
+                    android:layout_width="wrap_content"
+                    android:textStyle="bold"
+                    android:fontFamily="@font/interbold"
+                    android:textSize="18dp"
+                    android:text="여행 기간"/>
+                <LinearLayout android:id="@+id/linearRowrectangle4409"
+                    android:layout_below="@+id/mt6"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="29.76dp"
+                    android:layout_marginStart="29.76dp"
+                    android:layout_marginTop="14dp"
+                    android:layout_width="match_parent" android:orientation="vertical">
+                    <TextView
+                        android:id="@+id/resdate_text"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="날짜를 선택해 주세요."
+                        android:gravity="center"
+                        android:fontFamily="@font/intermedium"
+                        android:textColor="@color/gray_800"
+                        android:textSize="16dp" />
+                    <CalendarView
+                        android:background="@drawable/calenbutton"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/calendarView"/>
+                </LinearLayout>
+                <TextView
+                    android:id="@+id/mt7"
+                    android:layout_below="@+id/mt6"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="410dp"
+                    android:layout_marginStart="28dp"
+                    android:layout_width="wrap_content"
+                    android:textStyle="bold"
+                    android:fontFamily="@font/interbold"
+                    android:textSize="18dp"
+                    android:text="함께 여행한 친구"/>
+
+                <LinearLayout android:id="@+id/linearRowrectangle4410"
+                    android:layout_below="@+id/mt7"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="29.76dp"
+                    android:layout_marginStart="29.76dp"
+                    android:layout_marginTop="14dp"
+                    android:layout_width="match_parent" android:orientation="horizontal">
+
+                    <EditText
+                        android:id="@+id/mt8"
+                        android:background="@drawable/rectangle_border_gray_401_radius_7"
+                        android:layout_height="50dp"
+                        android:layout_weight="0.78"
+                        android:layout_width="0dp"/>
+
+                </LinearLayout>
+                <TextView
+                    android:id="@+id/mt9"
+                    android:layout_below="@+id/mt7"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="90dp"
+                    android:layout_marginStart="28dp"
+                    android:layout_width="wrap_content"
+                    android:textStyle="bold"
+                    android:fontFamily="@font/interbold"
+                    android:textSize="18dp"
+                    android:text="기록을 남겨보세요!"/>
+
+
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
