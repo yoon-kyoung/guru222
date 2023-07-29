@@ -174,7 +174,7 @@
         app:srcCompat="@drawable/rectangle"
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="-205dp"
-        tools:layout_editor_absoluteY="302dp" />
+        tools:layout_editor_absoluteY="305dp" />
 
     <TextView
         android:id="@+id/textView19"
@@ -184,14 +184,14 @@
         android:text="를 위한 추천 여행지"
         android:textSize="23sp"
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="152dp"
+        tools:layout_editor_absoluteX="165dp"
         tools:layout_editor_absoluteY="326dp" />
 
     <TextView
         android:id="@+id/textView20"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="사람들과 어울리기를 좋아하는 인싸."
+        android:text="사람을 좋아해 소통하는 여행을 추구."
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="101dp"
         tools:layout_editor_absoluteY="373dp" />
@@ -200,7 +200,7 @@
         android:id="@+id/textView21"
         android:layout_width="350dp"
         android:layout_height="23dp"
-        android:text="액티비티 선호하는 즉흥적인 스타일의 여행자로 에너자이저!"
+        android:text="언어가 통하지 않아도 의사소통을 하는 신박한 능력을 보임!"
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="34dp"
         tools:layout_editor_absoluteY="394dp" />
@@ -240,5 +240,21 @@
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="309dp"
         tools:layout_editor_absoluteY="696dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="104dp"
+        android:layout_height="25dp"
+        app:srcCompat="@android:drawable/btn_dropdown"
+        tools:layout_editor_absoluteX="61dp"
+        tools:layout_editor_absoluteY="328dp" />
+
+    <TextView
+        android:id="@+id/textView27"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ISFP"
+        tools:layout_editor_absoluteX="90dp"
+        tools:layout_editor_absoluteY="328dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

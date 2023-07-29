@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+    <LinearLayout android:gravity="start"
+        android:id="@+id/linearThree"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:gravity="center_horizontal"
+            android:id="@+id/linearColumnfifty"
+            android:layout_height="50dp"
+            android:layout_width="match_parent"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/BarText3"
+                android:textStyle="bold"
+                style="@style/txtInterbold18"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginStart="145dp"
+                android:layout_marginTop="11dp"
+                android:layout_marginEnd="145dp"
+                android:text="회원가입" />
+        </LinearLayout>
+
+        <View android:background="@color/lime_400"
+            android:id="@+id/lineLine3"
+            android:layout_height="0.95dp"
+            android:layout_marginEnd="11.44dp"
+            android:layout_width="322.73dp"/>
+
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="18.91dp"
+            android:layout_marginEnd="29.76dp"
+            android:layout_marginStart="29.76dp"
+            android:layout_marginTop="33.1dp"
+            android:layout_width="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="11.44dp"
+                android:layout_marginStart="2.29dp"
+                android:layout_width="match_parent"
+                android:textStyle="bold"
+                style="@style/txtInterbold18"
+                android:text="아이디 / 비밀번호 설정"/>
+
+            <TextView
+                style="@style/txtInterbold14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="33.1dp"
+                android:layout_marginEnd="11.44dp"
+                android:text="아이디"
+                android:id="@+id/emailEdit"
+                android:textStyle="bold"
+                tools:ignore="TextSizeCheck" />
+
+            <LinearLayout
+                android:id="@+id/linearRowrectangle4407"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="2dp"
+                android:layout_marginTop="14dp"
+                android:layout_width="match_parent" android:orientation="horizontal">
+
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="0.78"
+                    android:background="@drawable/rectangle_border_gray_401_radius_7"
+                    tools:ignore="SpeakableTextPresentCheck" />
+
+            </LinearLayout>
+
+
+            <TextView
+                style="@style/txtInterbold14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="33.1dp"
+                android:layout_marginEnd="11.44dp"
+                android:text="비밀번호"
+                android:textStyle="bold"
+                tools:ignore="TextSizeCheck" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="14dp"
+                android:background="@drawable/rectangle_border_gray_401_radius_7"
+                android:inputType="text"
+                android:id="@+id/passwordEdit"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <TextView
+                style="@style/txtInterbold14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="33.1dp"
+                android:layout_marginEnd="11.44dp"
+                android:text="비밀번호 확인"
+                android:textStyle="bold"
+                tools:ignore="TextSizeCheck" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="14dp"
+                android:background="@drawable/rectangle_border_gray_401_radius_7"
+                android:inputType="text"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/signupBtn"
+                style="@style/btnSolidRounded"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="10dp"
+                android:ellipsize="end"
+                android:gravity="center"
+                android:paddingTop="14.19dp"
+                android:paddingBottom="14.19dp"
+                android:singleLine="true"
+                android:text="가입하기"
+                android:textAllCaps="false"
+                android:textSize="18dp" />
+        </LinearLayout>
+    </LinearLayout>
+</layout>

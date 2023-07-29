@@ -1,33 +1,33 @@
 {
   "project_info": {
-    "project_number": "86975456290",
-    "project_id": "chat-abc1b",
-    "storage_bucket": "chat-abc1b.appspot.com"
+    "project_number": "191419343753",
+    "project_id": "login-register-firebase-730ca",
+    "storage_bucket": "login-register-firebase-730ca.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:86975456290:android:79d25e4b4cd760473d567b",
+        "mobilesdk_app_id": "1:191419343753:android:3997fa2e025d7cf1d13758",
         "android_client_info": {
           "package_name": "com.example.myapplication"
         }
       },
       "oauth_client": [
         {
-          "client_id": "86975456290-m1t57d732rl7kkj3ncr6oop2slqrgnkj.apps.googleusercontent.com",
+          "client_id": "191419343753-v09k3k898pruitqsmcs793a29fe1su7i.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyCHmh1kMLTd4NIOH66zE7CYZ_VB5cPKH_8"
+          "current_key": "AIzaSyAjzjl5p0iybgldkeBSEPwvB4HwjSy-miQ"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "86975456290-m1t57d732rl7kkj3ncr6oop2slqrgnkj.apps.googleusercontent.com",
+              "client_id": "191419343753-v09k3k898pruitqsmcs793a29fe1su7i.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
