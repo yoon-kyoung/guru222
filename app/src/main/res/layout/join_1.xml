@@ -8,12 +8,12 @@
 
 
         <ImageView
+            android:layout_width="396dp"
+            android:layout_height="190dp"
             android:layout_gravity="center_horizontal"
-            android:layout_width="410.86dp"
-            android:layout_height="189.47dp"
             android:layout_marginEnd="1.14dp"
             android:scaleType="fitXY"
-            android:src="@drawable/img_image584"/>
+            android:src="@drawable/img_image584" />
 
         <LinearLayout android:gravity="start"
             android:layout_height="wrap_content"
