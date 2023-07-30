@@ -178,38 +178,87 @@
                 <Button
                     android:id="@+id/mt10"
                     android:layout_below="@+id/mt9"
-                    android:layout_marginTop="14dp"
+                    android:layout_marginTop="16dp"
                     android:layout_marginStart="35dp"
                     android:layout_width="60dp"
-                    android:layout_height="60dp"/>
+                    android:layout_height="60dp"
+                    android:backgroundTint="@color/buttongray2"/>
+
+                <ImageView
+                    android:id="@+id/tmicon1"
+                    android:layout_width="35dp"
+                    android:layout_height="40dp"
+                    android:layout_below="@+id/mt9"
+                    android:layout_marginStart="47dp"
+                    android:layout_marginTop="25dp"
+                    android:src="@drawable/t_" />
+
                 <Button
                     android:id="@+id/mt11"
                     android:layout_below="@+id/mt9"
                     android:layout_marginTop="14dp"
                     android:layout_marginStart="105dp"
                     android:layout_width="60dp"
-                    android:layout_height="60dp"/>
+                    android:layout_height="60dp"
+                    android:backgroundTint="@color/buttongray2"/>
+                <ImageView
+                    android:id="@+id/tmicon2"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_below="@+id/mt9"
+                    android:layout_marginStart="110dp"
+                    android:layout_marginTop="20dp"
+                    android:src="@drawable/tt_" />
+
                 <Button
                     android:id="@+id/mt12"
                     android:layout_below="@+id/mt9"
                     android:layout_marginTop="14dp"
                     android:layout_marginStart="175dp"
                     android:layout_width="60dp"
-                    android:layout_height="60dp"/>
+                    android:layout_height="60dp"
+                    android:backgroundTint="@color/buttongray2"/>
+                <ImageView
+                    android:id="@+id/tmicon3"
+                    android:layout_width="35dp"
+                    android:layout_height="40dp"
+                    android:layout_below="@+id/mt9"
+                    android:layout_marginStart="187dp"
+                    android:layout_marginTop="25dp"
+                    android:src="@drawable/happy" />
                 <Button
                     android:id="@+id/mt13"
                     android:layout_below="@+id/mt9"
                     android:layout_marginTop="14dp"
                     android:layout_marginStart="245dp"
                     android:layout_width="60dp"
-                    android:layout_height="60dp"/>
+                    android:layout_height="60dp"
+                    android:backgroundTint="@color/buttongray2"/>
+                <ImageView
+                    android:id="@+id/tmicon4"
+                    android:layout_width="35dp"
+                    android:layout_height="40dp"
+                    android:layout_below="@+id/mt9"
+                    android:layout_marginStart="257dp"
+                    android:layout_marginTop="25dp"
+                    android:src="@drawable/sad" />
                 <Button
                     android:id="@+id/mt14"
                     android:layout_below="@+id/mt9"
                     android:layout_marginTop="14dp"
                     android:layout_marginStart="315dp"
                     android:layout_width="60dp"
-                    android:layout_height="60dp"/>
+                    android:layout_height="60dp"
+                    android:backgroundTint="@color/buttongray2"/>
+                <ImageView
+                    android:id="@+id/tmicon5"
+                    android:layout_width="35dp"
+                    android:layout_height="40dp"
+                    android:layout_below="@+id/mt9"
+                    android:layout_marginStart="327dp"
+                    android:layout_marginTop="25dp"
+                    android:src="@drawable/heart" />
+
                 <LinearLayout android:id="@+id/linearRowrectangle4412"
                     android:layout_below="@+id/mt14"
                     android:layout_height="wrap_content"
