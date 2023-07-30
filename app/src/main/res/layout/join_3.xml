@@ -162,6 +162,7 @@
                 android:orientation="horizontal"/>
 
             <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/nextButton"
                 style="@style/btnSolidRounded"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
