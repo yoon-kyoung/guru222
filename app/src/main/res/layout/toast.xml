@@ -1,6 +1,81 @@
-<?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"/>
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+
+    <LinearLayout
+        android:gravity="center_horizontal"
+        android:id="@+id/linearColumnone"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="200dp">
+
+        <ImageView
+            android:layout_gravity="center_horizontal"
+            android:layout_height="30.37dp"
+            android:layout_marginEnd="20.25dp"
+            android:layout_marginStart="20.25dp"
+            android:layout_marginTop="41.24dp"
+            android:layout_width="43.53dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/img_image1"/>
+
+        <TextView
+            android:gravity="center_horizontal"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="20.25dp"
+            android:layout_marginStart="20.25dp"
+            android:layout_marginTop="15.46dp"
+            android:layout_width="match_parent"
+            android:textStyle="bold"
+            style="@style/txtInterbold18"
+            android:text="지금 회원가입해서 맞춤형 여행지를 탐색하고 나의 여행을 기록하세요"/>
+
+        <TextView
+            android:layout_gravity="center_horizontal"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="20.25dp"
+            android:layout_marginStart="20.25dp"
+            android:layout_marginTop="6.44dp"
+            android:layout_width="wrap_content"
+            style="@style/txtPretendardmedium14"
+            android:text="계정이 없을 경우 맞춤 탐색과 기록할 수 없습니다"/>
+
+        <View
+            android:background="@color/bluegray_100"
+            android:id="@+id/lineRectangle9580"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="1.29dp"
+            android:layout_marginEnd="20.25dp"
+            android:layout_marginStart="20.25dp"
+            android:layout_marginTop="34.8dp"
+            android:layout_width="370.5dp"/>
+
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30.93dp"
+            android:layout_marginEnd="20.25dp"
+            android:layout_marginStart="20.25dp"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_marginLeft="40dp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.46"
+                android:gravity="center"
+                android:text="로그인 하기" />
+
+            <TextView
+                android:ellipsize="end"
+                android:id="@+id/txtFour"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                android:layout_weight="0.54"
+                android:layout_width="0dp"
+                android:textStyle="bold"
+                android:text="회원가입 하기" />
+        </LinearLayout>
+    </LinearLayout>
+</layout>
