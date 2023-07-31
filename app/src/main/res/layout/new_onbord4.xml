@@ -22,19 +22,6 @@
             android:layout_marginLeft="10dp"
             android:layout_marginTop="10dp"/>
 
-        <TextView
-            android:id="@+id/Next"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:fontFamily="@font/intermedium"
-            android:text="다음"
-            android:textColor="@color/gray_700"
-            android:textSize="20dp"
-            tools:ignore="MissingConstraints"
-            android:layout_marginLeft="300dp"
-            android:layout_marginTop="10dp"/>
-
-
     </LinearLayout>
 
 
@@ -49,7 +36,7 @@
         tools:layout_editor_absoluteY="64dp" />
 
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/mbtibtn2"
+        android:id="@+id/Next"
         style="@style/btnSolidRounded"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

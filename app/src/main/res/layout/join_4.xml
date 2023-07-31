@@ -89,29 +89,13 @@
             android:layout_marginTop="14dp"
             android:layout_width="match_parent"/>
 
-        <TextView
-            android:layout_height="wrap_content"
-            android:layout_marginEnd="11.44dp"
-            android:layout_marginTop="33.1dp"
-            android:layout_width="wrap_content"
-            style="@style/txtInterbold14"
-            android:textStyle="bold"
-            android:text="비밀번호 확인"/>
-
-        <EditText
-            android:background="@drawable/rectangle_border_gray_401_radius_7"
-            android:inputType="text"
-            android:layout_height="50dp"
-            android:layout_marginTop="14dp"
-            android:layout_width="match_parent"/>
-
         <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/finishButton"
             style="@style/btnSolidRounded"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="10dp"
-            android:layout_marginTop="30dp"
+            android:layout_marginTop="50dp"
             android:layout_marginEnd="10dp"
             android:ellipsize="end"
             android:gravity="center"

@@ -59,16 +59,6 @@
         android:orientation="vertical">
 
         <CheckBox
-            android:id="@+id/radioAll"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:buttonTint="@color/bluegray_600"
-            android:paddingStart="7dp"
-            android:text="약관 전체 동의하기"
-            android:textColor="@color/gray_800"
-            android:textSize="18.38dp"/>
-
-        <CheckBox
             android:buttonTint="@color/bluegray_101"
             android:id="@+id/radio1"
             android:layout_height="wrap_content"

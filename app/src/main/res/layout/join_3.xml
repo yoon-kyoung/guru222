@@ -38,7 +38,7 @@
         android:layout_marginTop="35dp"
         style="@style/txtInterbold18"
         android:textStyle="bold"
-        android:text="휴대폰 본인 인증"/>
+        android:text="기본 정보"/>
 
     <TextView
         android:id="@+id/sTitleText1"
@@ -68,92 +68,21 @@
         android:layout_marginTop="36dp"
         android:layout_width="wrap_content"
         style="@style/txtInterbold14"
-        android:text="주민등록번호"/>
+        android:text="이메일"/>
 
-    <LinearLayout android:gravity="start"
-        android:id="@+id/Number"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="24dp"
+    <EditText
+        android:background="@drawable/rectangle_border_gray_401_radius_7"
+        android:id="@+id/editName2"
+        android:inputType="text"
+        android:layout_height="50dp"
+        android:layout_marginEnd="27.47dp"
         android:layout_marginStart="24dp"
         android:layout_marginTop="14dp"
-        android:layout_width="match_parent"
-        android:orientation="horizontal">
-        <EditText
-            android:background="@drawable/rectangle_border_gray_401_radius_7"
-            android:id="@+id/editNumber1"
-            android:inputType="text"
-            android:layout_height="50dp"
-            android:layout_weight="0.57"
-            android:layout_width="0dp"/>
+        android:layout_width="match_parent"/>
 
-        <TextView
-            android:layout_height="wrap_content"
-            android:layout_marginStart="4dp"
-            android:layout_weight="0.03"
-            android:layout_width="0dp"
-            style="@style/txtInterregular14_1"
-            tools:text="-"/>
-
-        <EditText
-            android:background="@drawable/rectangle_border_gray_401_radius_7"
-            android:id="@+id/editNumber2"
-            android:layout_height="match_parent"
-            android:layout_marginStart="3dp"
-            android:layout_width="23dp"/>
-
-        <View
-            android:background="@drawable/rectangle_bg_bluegray_100_radius_6_5"
-            android:id="@+id/viewEllipse1"
-            android:layout_height="15dp"
-            android:layout_marginBottom="16dp"
-            android:layout_marginStart="9dp"
-            android:layout_marginTop="16dp"
-            android:layout_width="15dp"/>
-
-        <View
-            android:background="@drawable/rectangle_bg_bluegray_100_radius_6_5"
-            android:id="@+id/viewEllipse2"
-            android:layout_height="15dp"
-            android:layout_marginBottom="16dp"
-            android:layout_marginStart="9dp"
-            android:layout_marginTop="16dp"
-            android:layout_width="15dp"/>
-        <View
-            android:background="@drawable/rectangle_bg_bluegray_100_radius_6_5"
-            android:id="@+id/viewEllipse3"
-            android:layout_height="15dp"
-            android:layout_marginBottom="16dp"
-            android:layout_marginStart="9dp"
-            android:layout_marginTop="16dp"
-            android:layout_width="15dp"/>
-        <View
-            android:background="@drawable/rectangle_bg_bluegray_100_radius_6_5"
-            android:id="@+id/viewEllipse4"
-            android:layout_height="15dp"
-            android:layout_marginBottom="16dp"
-            android:layout_marginStart="9dp"
-            android:layout_marginTop="16dp"
-            android:layout_width="15dp"/>
-        <View
-            android:background="@drawable/rectangle_bg_bluegray_100_radius_6_5"
-            android:id="@+id/viewEllipse5"
-            android:layout_height="15dp"
-            android:layout_marginBottom="16dp"
-            android:layout_marginStart="9dp"
-            android:layout_marginTop="16dp"
-            android:layout_width="15dp"/>
-        <View
-            android:background="@drawable/rectangle_bg_bluegray_100_radius_6_5"
-            android:id="@+id/viewEllipse6"
-            android:layout_height="15dp"
-            android:layout_marginBottom="16dp"
-            android:layout_marginStart="9dp"
-            android:layout_marginTop="16dp"
-            android:layout_width="15dp"/>
-    </LinearLayout>
 
     <LinearLayout
-        android:id="@+id/linearRowgrouptwentyfive"
+        android:id="@+id/linearRowgroup2"
         android:layout_height="wrap_content"
         android:layout_marginEnd="24dp"
         android:layout_marginStart="24dp"

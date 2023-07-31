@@ -66,7 +66,7 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="17dp"
+            android:layout_marginTop="20dp"
             android:orientation="horizontal">
 
             <ImageView android:id="@+id/imageCheckmark"
@@ -91,12 +91,13 @@
 
 
 
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginEnd="69dp"
             android:layout_marginStart="60dp"
-            android:layout_marginTop="50dp"
+            android:layout_marginTop="20dp"
             android:orientation="horizontal">
 
             <ImageView
@@ -131,40 +132,31 @@
 
 
         <LinearLayout
-            android:layout_height="wrap_content"
-            android:layout_marginEnd="60dp"
-            android:layout_marginStart="60dp"
-            android:layout_marginTop="40dp"
             android:layout_width="wrap_content"
-            android:orientation="horizontal">
-
-            <ImageView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:src="@drawable/img_fingerprint"/>
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="20dp">
 
             <TextView
+                android:id="@+id/textView4"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="4dp"
-                android:layout_weight="0.32"
-                tools:text="생체인증"/>
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="40dp"
-                android:layout_weight="0.1"
-                tools:text="PIN" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="7dp"
-                android:layout_weight="0.48"
-                tools:text="간편비밀번호"/>
+                android:layout_marginStart="120dp"
+                android:gravity="center"
+                android:layout_marginTop="30dp"
+                android:fontFamily="@font/inter"
+                android:text="계정이 없으신가요?"
+                android:textColor="@color/gray_700"
+                android:textSize="14dp"
+                tools:ignore="MissingConstraints,TextSizeCheck"/>
+            <View
+                android:id="@+id/mbtiline1"
+                android:layout_width="115dp"
+                android:layout_height="1dp"
+                android:background="@color/gray_700"
+                tools:ignore="NotSibling"
+                android:layout_marginLeft="120dp"/>
         </LinearLayout>
-
 
     </LinearLayout>
 </LinearLayout>
