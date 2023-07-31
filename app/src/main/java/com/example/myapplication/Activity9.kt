@@ -17,7 +17,7 @@ class Activity9: AppCompatActivity() {
         val next = findViewById<AppCompatButton>(R.id.finishButton)
 
         next.setOnClickListener {
-            var intent = Intent(this, Activity10::class.java)
+            var intent = Intent(this, Activity22::class.java)
             startActivity(intent)
         }
 
