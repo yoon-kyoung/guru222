@@ -36,6 +36,7 @@
         <activity android:name=".Activity24_searching" android:exported="true"/>
         <activity android:name=".Activity25" android:exported="true"/>
         <activity android:name=".Activity26" android:exported="true"/>
+        <activity android:name=".Activity27" android:exported="true"/>
         <activity android:name=".MemoryItem" android:exported="true"/>
         <activity android:name=".MemoryInfo" android:exported="true"/>
         <activity android:name=".MemoryReg" android:exported="true"/>
