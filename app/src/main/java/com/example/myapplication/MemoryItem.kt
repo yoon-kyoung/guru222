@@ -73,7 +73,7 @@ class MemoryItem :AppCompatActivity(){
             layout_item.addView(tvdate)
             var tvNation:TextView=TextView(this)
             tvNation.text=str_nation
-            tvNation.textSize=20f
+            tvNation.textSize=18f
             layout_item.addView(tvNation)
 
 
