@@ -14,7 +14,7 @@ class Activity6_login : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_login)
 
-        val next = findViewById<AppCompatButton>(R.id.loginBtn)
+//        val next = findViewById<AppCompatButton>(R.id.loginBtn)
         val join = findViewById<TextView>(R.id.textView4)
 
 

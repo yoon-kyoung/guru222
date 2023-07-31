@@ -15,11 +15,11 @@ class Activity5 : AppCompatActivity() {
 
         val next = findViewById<TextView>(R.id.Next)
 
+
         next.setOnClickListener {
             var intent = Intent(this, Activity6_login::class.java)
             startActivity(intent)
         }
-
 
     }
 }

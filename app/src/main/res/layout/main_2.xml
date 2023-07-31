@@ -101,13 +101,13 @@
                         android:text="저장하기"/>
 
                     <TextView
-                        android:layout_height="wrap_content"
-                        android:layout_marginBottom="2dp"
-                        android:layout_marginStart="112.16dp"
-                        android:layout_weight="0.5"
-                        android:layout_width="0dp"
                         style="@style/txtIntermedium12"
-                        android:text="여행후기"/>
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="112.16dp"
+                        android:layout_marginBottom="2dp"
+                        android:layout_weight="0.5"
+                        android:text="여행후기" />
                 </LinearLayout>
 
                 <LinearLayout

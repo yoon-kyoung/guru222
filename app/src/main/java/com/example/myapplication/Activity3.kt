@@ -14,13 +14,13 @@ class Activity3 : AppCompatActivity() {
         setContentView(R.layout.new_onbord2)
 
         val next = findViewById<TextView>(R.id.Next)
+        val skip = findViewById<TextView>(R.id.textView4)
 
         next.setOnClickListener {
             var intent = Intent(this, Activity4::class.java)
             startActivity(intent)
         }
 
-        val skip = findViewById<TextView>(R.id.textView4)
         skip.setOnClickListener {
             var intent = Intent(this, Activity6_login::class.java)
             startActivity(intent)
