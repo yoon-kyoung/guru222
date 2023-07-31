@@ -17,7 +17,7 @@ class Activity22_mbti_result : AppCompatActivity() {
         val next = findViewById<AppCompatButton>(R.id.isfpbtn1)
 
         next.setOnClickListener {
-            var intent = Intent(this, Activity26::class.java) //my1으로 이동
+            var intent = Intent(this, MemoryItem::class.java) //searching으로 이동
             startActivity(intent)
         }
 
