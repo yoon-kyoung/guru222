@@ -100,8 +100,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="혼자여행  "
+        app:layout_constraintEnd_toEndOf="@+id/imageView7"
+        app:layout_constraintStart_toStartOf="@+id/imageView7"
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="42dp"
         tools:layout_editor_absoluteY="166dp" />
 
     <TextView
@@ -109,8 +110,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="식도락여행 "
+        app:layout_constraintEnd_toEndOf="@+id/imageView14"
+        app:layout_constraintStart_toStartOf="@+id/imageView14"
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="34dp"
         tools:layout_editor_absoluteY="266dp" />
 
     <TextView
@@ -118,8 +120,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="여럿이여행"
+        app:layout_constraintEnd_toEndOf="@+id/imageView11"
+        app:layout_constraintStart_toStartOf="@+id/imageView11"
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="128dp"
         tools:layout_editor_absoluteY="166dp" />
 
     <TextView
@@ -127,8 +130,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="페스티벌  "
+        app:layout_constraintEnd_toEndOf="@+id/imageView15"
+        app:layout_constraintStart_toStartOf="@+id/imageView15"
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="134dp"
         tools:layout_editor_absoluteY="266dp" />
 
     <TextView
@@ -136,17 +140,19 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="자연속으로"
+        app:layout_constraintEnd_toEndOf="@+id/imageView12"
+        app:layout_constraintStart_toStartOf="@+id/imageView12"
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="217dp"
-        tools:layout_editor_absoluteY="166dp" />
+        tools:layout_editor_absoluteY="165dp" />
 
     <TextView
         android:id="@+id/textView17"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="스테디셀러"
+        app:layout_constraintEnd_toEndOf="@+id/imageView16"
+        app:layout_constraintStart_toStartOf="@+id/imageView16"
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="215dp"
         tools:layout_editor_absoluteY="266dp" />
 
     <TextView
@@ -154,8 +160,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="도심속으로"
+        app:layout_constraintEnd_toEndOf="@+id/imageView13"
+        app:layout_constraintStart_toStartOf="@+id/imageView13"
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="307dp"
         tools:layout_editor_absoluteY="166dp" />
 
     <TextView
@@ -163,8 +170,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="요즘핫플  "
+        app:layout_constraintEnd_toEndOf="@+id/imageView17"
+        app:layout_constraintStart_toStartOf="@+id/imageView17"
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="313dp"
         tools:layout_editor_absoluteY="266dp" />
 
     <TextView
@@ -183,8 +191,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="사람을 좋아해 소통하는 여행을 추구."
+        app:layout_constraintEnd_toEndOf="@+id/textView21"
+        app:layout_constraintStart_toStartOf="@+id/textView21"
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="101dp"
         tools:layout_editor_absoluteY="373dp" />
 
     <TextView
@@ -201,10 +210,11 @@
         android:layout_width="104dp"
         android:layout_height="25dp"
         android:contentDescription="@string/app_name"
+        app:layout_constraintBottom_toBottomOf="@+id/textView19"
+        app:layout_constraintTop_toTopOf="@+id/textView19"
         app:srcCompat="@android:drawable/btn_dropdown"
         tools:ignore="MissingConstraints,TouchTargetSizeCheck"
-        tools:layout_editor_absoluteX="61dp"
-        tools:layout_editor_absoluteY="335dp" />
+        tools:layout_editor_absoluteX="61dp" />
 
     <TextView
         android:id="@+id/textView27"
@@ -348,28 +358,31 @@
         tools:ignore="MissingConstraints" />
 
     <Space
+        android:id="@+id/space3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="36dp"
         app:layout_constraintEnd_toStartOf="@+id/imageView7"
-        tools:layout_editor_absoluteY="141dp"
-        tools:ignore="MissingConstraints" />
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="141dp" />
 
     <Space
+        android:id="@+id/space4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:layout_constraintEnd_toStartOf="@+id/imageView11"
         app:layout_constraintStart_toEndOf="@+id/imageView7"
-        tools:layout_editor_absoluteY="140dp"
-        tools:ignore="MissingConstraints" />
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="140dp" />
 
     <Space
+        android:id="@+id/space5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:layout_constraintEnd_toStartOf="@+id/imageView12"
         app:layout_constraintStart_toEndOf="@+id/imageView11"
-        tools:layout_editor_absoluteY="138dp"
-        tools:ignore="MissingConstraints" />
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="138dp" />
 
     <Space
         android:layout_width="wrap_content"
@@ -396,19 +409,63 @@
         tools:ignore="MissingConstraints" />
 
     <Space
+        android:id="@+id/space7"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:layout_constraintEnd_toStartOf="@+id/imageView14"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="237dp"
-        tools:ignore="MissingConstraints" />
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="237dp" />
+
+    <Space
+        android:id="@+id/space6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toStartOf="@+id/imageView15"
+        app:layout_constraintStart_toEndOf="@+id/imageView14"
+        tools:layout_editor_absoluteY="242dp" />
+
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toStartOf="@+id/imageView16"
+        app:layout_constraintStart_toEndOf="@+id/imageView15"
+        tools:layout_editor_absoluteY="239dp" />
+
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toStartOf="@+id/imageButton"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="343dp" />
+
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textView19"
+        tools:layout_editor_absoluteY="338dp" />
+
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toTopOf="@+id/textView19"
+        app:layout_constraintTop_toBottomOf="@+id/textView17"
+        tools:layout_editor_absoluteX="218dp" />
+
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toTopOf="@+id/textView20"
+        app:layout_constraintTop_toBottomOf="@+id/textView19"
+        tools:layout_editor_absoluteX="207dp" />
 
     <ImageView
-        android:id="@+id/imageView5"
-        android:layout_width="265dp"
-        android:layout_height="254dp"
-        app:srcCompat="@drawable/rectangle_bg_bluegray_100_radius_6_5"
-        tools:layout_editor_absoluteX="-8dp"
-        tools:layout_editor_absoluteY="326dp" />
+        android:id="@+id/imageView18"
+        android:layout_width="482dp"
+        android:layout_height="754dp"
+        app:srcCompat="@drawable/back"
+        tools:layout_editor_absoluteX="-18dp"
+        tools:layout_editor_absoluteY="195dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
