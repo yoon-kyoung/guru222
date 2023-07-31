@@ -141,21 +141,21 @@
                 android:id="@+id/textView4"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="120dp"
+                android:layout_marginStart="105dp"
                 android:gravity="center"
                 android:layout_marginTop="30dp"
                 android:fontFamily="@font/inter"
                 android:text="계정이 없으신가요?"
-                android:textColor="@color/gray_700"
-                android:textSize="14dp"
+                android:textColor="@color/bluegray_600"
+                android:textSize="16dp"
                 tools:ignore="MissingConstraints,TextSizeCheck"/>
             <View
                 android:id="@+id/mbtiline1"
-                android:layout_width="115dp"
+                android:layout_width="140dp"
                 android:layout_height="1dp"
-                android:background="@color/gray_700"
+                android:background="@color/bluegray_600"
                 tools:ignore="NotSibling"
-                android:layout_marginLeft="120dp"/>
+                android:layout_marginLeft="100dp"/>
         </LinearLayout>
 
     </LinearLayout>

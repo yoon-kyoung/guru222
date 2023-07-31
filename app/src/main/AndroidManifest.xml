@@ -22,7 +22,7 @@
         <activity android:name=".Activity9" android:exported="true"/>
         <activity android:name=".Activity10_mbti" android:exported="true"/>
         <activity android:name=".Activity11" android:exported="true"/>
-
+        <activity android:name=".Activity12" android:exported="true"/>
         <activity android:name=".Activity13" android:exported="true"/>
         <activity android:name=".Activity14" android:exported="true"/>
         <activity android:name=".Activity15" android:exported="true"/>
@@ -33,16 +33,16 @@
         <activity android:name=".Activity20" android:exported="true"/>
         <activity android:name=".Activity21" android:exported="true"/>
         <activity android:name=".Activity22_mbti_result" android:exported="true"/>
-
-        <activity android:name=".MemoryItem" android:exported="true"/>
-        <activity android:name=".MemoryInfo" android:exported="true"/>
-        <activity android:name=".MemoryReg" android:exported="true"/>
         <activity android:name=".Activity24_searching" android:exported="true"/>
         <activity android:name=".Activity25" android:exported="true"/>
         <activity android:name=".Activity26" android:exported="true"/>
-
-
-
+        <activity android:name=".MemoryItem" android:exported="true"/>
+        <activity android:name=".MemoryInfo" android:exported="true"/>
+        <activity android:name=".MemoryReg" android:exported="true"/>
+        <activity android:name=".DBManager" android:exported="true"/>
+        <activity android:name=".LoginActivity" android:exported="true"/>
+        <activity android:name=".SignUpActivity" android:exported="true"/>
+        <activity android:name=".User" android:exported="true"/>
         <activity
             android:name=".MainActivity"
             android:exported="true">

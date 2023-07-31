@@ -20,11 +20,6 @@ class Activity5 : AppCompatActivity() {
             startActivity(intent)
         }
 
-        val skip = findViewById<TextView>(R.id.textView4)
-        skip.setOnClickListener {
-            var intent = Intent(this, Activity6_login::class.java)
-            startActivity(intent)
-        }
 
     }
 }

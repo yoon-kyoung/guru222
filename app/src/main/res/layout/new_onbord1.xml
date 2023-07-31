@@ -37,11 +37,21 @@
 
     </LinearLayout>
 
-
+    <TextView
+        android:id="@+id/w1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="130dp"
+        android:layout_marginTop="60dp"
+        android:fontFamily="@font/interbold"
+        android:text="여행 MBTI"
+        android:textColor="@color/gray_800"
+        android:textSize="25dp"
+        android:textStyle="bold" />
     <ImageView
         android:id="@+id/imageView8"
         android:layout_width="412dp"
-        android:layout_height="513dp"
+        android:layout_height="400dp"
         android:src="@drawable/new_onbord1"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -52,25 +62,25 @@
         android:id="@+id/textView4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="180dp"
+        android:layout_marginLeft="170dp"
         android:layout_marginBottom="3dp"
         android:layout_marginTop="10dp"
         android:fontFamily="@font/inter"
         android:text="건너뛰기"
         android:textColor="@color/gray_700"
-        android:textSize="10dp"
+        android:textSize="16dp"
         app:layout_constraintBottom_toBottomOf="parent"
         tools:ignore="MissingConstraints,TextSizeCheck"
         tools:layout_editor_absoluteX="191dp" />
     <View
         android:id="@+id/mbtiline1"
-        android:layout_width="40dp"
+        android:layout_width="65dp"
         android:layout_height="1dp"
         android:background="@color/gray_700"
         app:layout_constraintTop_toBottomOf="@id/textView4"
         app:layout_constraintStart_toStartOf="@id/textView4"
         tools:ignore="NotSibling"
-        android:layout_marginLeft="180dp"/>
+        android:layout_marginLeft="168dp"/>
 
 
 </LinearLayout>
