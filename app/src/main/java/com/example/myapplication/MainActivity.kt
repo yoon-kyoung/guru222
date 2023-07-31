@@ -1,9 +1,11 @@
 package com.example.myapplication
 
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
+import androidx.appcompat.app.AppCompatActivity
+
+private const val SPLASH_DELAY: Long = 3000 // 스플래시 화면 표시 시간 (3초)
 
 class MainActivity : AppCompatActivity() {
 
