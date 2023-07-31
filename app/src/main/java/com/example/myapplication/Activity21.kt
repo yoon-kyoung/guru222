@@ -14,11 +14,17 @@ class Activity21 : AppCompatActivity() {
         setContentView(R.layout.mbti12)
 
         val next = findViewById<AppCompatButton>(R.id.mbtibtn1)
+        val two = findViewById<AppCompatButton>(R.id.mbtibtn2)
+
 
         next.setOnClickListener {
             var intent = Intent(this, Activity22_mbti_result::class.java)
             startActivity(intent)
         }
 
+        two.setOnClickListener {
+            var intent = Intent(this, Activity22_mbti_result::class.java)
+            startActivity(intent)
+        }
     }
 }
