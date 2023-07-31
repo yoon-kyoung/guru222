@@ -5,7 +5,7 @@
     <FrameLayout
         android:id="@+id/map_container"
         android:layout_width="match_parent"
-        android:layout_height="330dp">
+        android:layout_height="280dp">
         <fragment
             android:id="@+id/map_fragment"
             android:name="com.google.android.gms.maps.SupportMapFragment"
@@ -14,31 +14,47 @@
 
 
     </FrameLayout>
-    <LinearLayout android:id="@+id/box1"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="29.76dp"
-        android:layout_marginStart="29.76dp"
-        android:layout_marginTop="14dp"
-        android:layout_width="match_parent" android:orientation="horizontal">
-
+        <ImageButton
+            android:background="@color/white_A700"
+            android:id="@+id/btnArrowleft"
+            android:layout_height="25.35dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="35dp"
+            android:layout_width="25.35dp"
+            android:paddingHorizontal="2.11dp"
+            android:paddingVertical="1.84dp"
+            android:src="@drawable/back"/>
 
         <EditText
             android:id="@+id/mt3"
-            android:background="@drawable/rectangle_border_gray_401_radius_7"
+            android:background="@drawable/search1"
             android:layout_height="50dp"
             android:layout_weight="0.78"
-            android:layout_width="0dp"/>
+            android:layout_marginStart="60dp"
+            android:layout_marginTop="20dp"
+            android:layout_width="300dp"/>
+    <TextView
+        android:id="@+id/mtt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="33dp"
+        android:layout_marginStart="80dp"
+        android:fontFamily="@font/interbold"
+        android:singleLine="true"
+        android:text="라스베이거스"
+        android:textColor="@color/gray_800"
+        android:textSize="16dp" />
 
-    </LinearLayout>
+
     <TextView
         android:id="@+id/search1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/box1"
+        android:layout_below="@+id/mt3"
         android:layout_marginStart="50dp"
-        android:layout_marginTop="280dp"
+        android:layout_marginTop="230dp"
         android:fontFamily="@font/interbold"
-        android:text="일본 후쿠오카"
+        android:text="미국 라스베이거스"
         android:textColor="@color/gray_800"
         android:textSize="25dp"
         android:textStyle="bold" />
@@ -51,7 +67,7 @@
         android:layout_marginStart="50dp"
         android:fontFamily="@font/intermedium"
         android:singleLine="true"
-        android:text="돈코츠 라멘의 본고장으로 유명하며"
+        android:text="카지노와 많은 놀거리가 풍부한"
         android:textColor="@color/gray_800"
         android:textSize="14dp" />
     <TextView
@@ -63,7 +79,7 @@
         android:layout_marginStart="50dp"
         android:fontFamily="@font/intermedium"
         android:singleLine="true"
-        android:text="시내에서 공항이 가장 가까운 규슈의 대표적 관광도시"
+        android:text="사막 위에 지어진 기적 같은 도시"
         android:textColor="@color/gray_800"
         android:textSize="14dp" />
     <ImageView
@@ -86,7 +102,7 @@
         android:layout_alignParentStart="true"
         android:layout_marginStart="20dp"
         android:layout_marginTop="7dp"
-        android:src="@drawable/bali" />
+        android:src="@drawable/lvg1" />
     <ImageView
         android:id="@+id/search5"
         android:layout_width="120dp"
@@ -95,7 +111,7 @@
         android:layout_alignParentStart="true"
         android:layout_marginStart="145dp"
         android:layout_marginTop="7dp"
-        android:src="@drawable/bali" />
+        android:src="@drawable/lvg2" />
     <ImageView
         android:id="@+id/search6"
         android:layout_width="120dp"
@@ -104,7 +120,7 @@
         android:layout_alignParentStart="true"
         android:layout_marginStart="270dp"
         android:layout_marginTop="7dp"
-        android:src="@drawable/bali" />
+        android:src="@drawable/lvg3" />
 
     <!-- 직항부터 !!! -->
     <LinearLayout
