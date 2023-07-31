@@ -11,7 +11,8 @@
         android:layout_height="92dp"
         android:layout_gravity="bottom"
         tools:layout_editor_absoluteX="-1dp"
-        tools:layout_editor_absoluteY="636dp" />
+        tools:layout_editor_absoluteY="636dp"
+        tools:ignore="BottomAppBar,MissingConstraints" />
 
     <ImageView
         android:id="@+id/imageView"
@@ -19,7 +20,8 @@
         android:layout_height="48dp"
         app:srcCompat="@drawable/lo"
         tools:layout_editor_absoluteX="184dp"
-        tools:layout_editor_absoluteY="655dp" />
+        tools:layout_editor_absoluteY="655dp"
+        tools:ignore="MissingConstraints" />
 
     <ImageView
         android:id="@+id/imageView3"
@@ -27,7 +29,8 @@
         android:layout_height="48dp"
         app:srcCompat="@drawable/se"
         tools:layout_editor_absoluteX="317dp"
-        tools:layout_editor_absoluteY="655dp" />
+        tools:layout_editor_absoluteY="655dp"
+        tools:ignore="MissingConstraints" />
 
     <ImageView
         android:id="@+id/imageView4"
@@ -35,7 +38,8 @@
         android:layout_height="49dp"
         app:srcCompat="@drawable/st"
         tools:layout_editor_absoluteX="40dp"
-        tools:layout_editor_absoluteY="655dp" />
+        tools:layout_editor_absoluteY="655dp"
+        tools:ignore="MissingConstraints" />
 
     <TextView
         android:id="@+id/textView2"
@@ -43,7 +47,8 @@
         android:layout_height="wrap_content"
         android:text="나의여행"
         tools:layout_editor_absoluteX="34dp"
-        tools:layout_editor_absoluteY="707dp" />
+        tools:layout_editor_absoluteY="707dp"
+        tools:ignore="MissingConstraints" />
 
     <TextView
         android:id="@+id/textView3"
@@ -51,7 +56,8 @@
         android:layout_height="wrap_content"
         android:text="탐색하기"
         tools:layout_editor_absoluteX="179dp"
-        tools:layout_editor_absoluteY="707dp" />
+        tools:layout_editor_absoluteY="707dp"
+        tools:ignore="MissingConstraints" />
 
     <TextView
         android:id="@+id/textView5"
@@ -59,34 +65,39 @@
         android:layout_height="wrap_content"
         android:text="환경설정"
         tools:layout_editor_absoluteX="317dp"
-        tools:layout_editor_absoluteY="707dp" />
+        tools:layout_editor_absoluteY="707dp"
+        tools:ignore="MissingConstraints" />
 
     <Space
         android:id="@+id/space"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:layout_constraintEnd_toStartOf="@+id/imageView"
-        tools:layout_editor_absoluteY="684dp" />
+        tools:layout_editor_absoluteY="684dp"
+        tools:ignore="MissingConstraints" />
 
     <Space
         android:layout_width="88dp"
         android:layout_height="0dp"
         app:layout_constraintEnd_toStartOf="@+id/space"
         app:layout_constraintStart_toEndOf="@+id/imageView4"
-        tools:layout_editor_absoluteY="684dp" />
+        tools:layout_editor_absoluteY="684dp"
+        tools:ignore="MissingConstraints" />
 
     <Space
         android:layout_width="46dp"
         android:layout_height="0dp"
         app:layout_constraintEnd_toStartOf="@+id/imageView3"
         app:layout_constraintStart_toEndOf="@+id/imageView"
-        tools:layout_editor_absoluteY="678dp" />
+        tools:layout_editor_absoluteY="678dp"
+        tools:ignore="MissingConstraints" />
 
     <Space
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         tools:layout_editor_absoluteX="19dp"
-        tools:layout_editor_absoluteY="674dp" />
+        tools:layout_editor_absoluteY="674dp"
+        tools:ignore="MissingConstraints" />
 
     <Space
         android:layout_width="25dp"
@@ -94,23 +105,27 @@
         android:layout_marginStart="7dp"
         app:layout_constraintEnd_toStartOf="@+id/imageView4"
         app:layout_constraintStart_toStartOf="@+id/bottomAppBar"
-        tools:layout_editor_absoluteY="680dp" />
+        tools:layout_editor_absoluteY="680dp"
+        tools:ignore="MissingConstraints" />
 
     <Space
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:layout_constraintBottom_toTopOf="@+id/imageView4"
-        tools:layout_editor_absoluteX="194dp" />
+        tools:layout_editor_absoluteX="194dp"
+        tools:ignore="MissingConstraints" />
 
     <Space
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         tools:layout_editor_absoluteX="17dp"
-        tools:layout_editor_absoluteY="524dp" />
+        tools:layout_editor_absoluteY="524dp"
+        tools:ignore="MissingConstraints" />
 
     <Space
         android:layout_width="412dp"
         android:layout_height="634dp"
         tools:layout_editor_absoluteX="1dp"
-        tools:layout_editor_absoluteY="1dp" />
+        tools:layout_editor_absoluteY="1dp"
+        tools:ignore="MissingConstraints" />
 </androidx.constraintlayout.widget.ConstraintLayout>
