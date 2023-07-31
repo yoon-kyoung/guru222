@@ -7,7 +7,7 @@ import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.widget.AppCompatButton
 
-class Activity6 : AppCompatActivity() {
+class Activity6_login : AppCompatActivity() {
 
     @SuppressLint("MissingInflatedId")
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -17,10 +17,6 @@ class Activity6 : AppCompatActivity() {
         val next = findViewById<AppCompatButton>(R.id.loginBtn)
         val join = findViewById<TextView>(R.id.textView4)
 
-        next.setOnClickListener {
-            var intent = Intent(this, Activity23_my::class.java)
-            startActivity(intent)
-        }
 
         join.setOnClickListener {
             var intent = Intent(this, Activity7::class.java)

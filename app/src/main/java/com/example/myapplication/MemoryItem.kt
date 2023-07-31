@@ -7,6 +7,7 @@ import android.os.Bundle
 import android.os.PersistableBundle
 import android.view.View
 import android.widget.Button
+import android.widget.ImageView
 import android.widget.LinearLayout
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
@@ -24,6 +25,7 @@ class MemoryItem :AppCompatActivity(){
         // 추천 여행지 보러가기
         val next = findViewById<AppCompatButton>(R.id.mybtn1)
         val memoey = findViewById<Button>(R.id.mybtn2)
+        val more = findViewById<ImageView>(R.id.my7)
 
         next.setOnClickListener {
             var intent = Intent(this, Activity24_searching::class.java) //searching으로 이동
@@ -32,6 +34,11 @@ class MemoryItem :AppCompatActivity(){
 
         memoey.setOnClickListener {
             var intent2 = Intent(this, Activity26::class.java)
+            startActivity(intent2)
+        }
+
+        more.setOnClickListener {
+            var intent2 = Intent(this, Activity25::class.java)
             startActivity(intent2)
         }
 
