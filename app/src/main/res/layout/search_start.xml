@@ -3,8 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/frameStackarrowleft"
     android:layout_height="match_parent"
-    android:layout_width="match_parent"
-    style="@style/groupStylewhite_A700">
+    android:layout_width="match_parent">
 
     <LinearLayout android:id="@+id/linearColumnarrowleft"
         android:layout_gravity="top|center"
@@ -47,7 +46,6 @@
                     android:layout_marginStart="8.45dp"
                     android:layout_weight="0.93"
                     android:layout_width="0dp"
-                    android:theme="@style/searchViewGroupOne"
                     app:iconifiedByDefault="false"
                     app:queryBackground="@android:color/transparent"
                     app:queryHint="떠나고 싶은 여행지를 찾아보세요" />
