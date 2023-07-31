@@ -359,4 +359,25 @@
         tools:layout_editor_absoluteY="554dp"
         tools:ignore="MissingConstraints" />
 
+    <Space
+        android:id="@+id/space2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="210dp"
+        tools:layout_editor_absoluteY="18dp" />
+
+    <Space
+        android:layout_width="412dp"
+        android:layout_height="38dp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView6"
+        tools:layout_editor_absoluteX="-1dp" />
+
+    <Space
+        android:layout_width="332dp"
+        android:layout_height="23dp"
+        app:layout_constraintEnd_toEndOf="@+id/imageView13"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/imageView7"
+        tools:layout_editor_absoluteY="78dp" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
