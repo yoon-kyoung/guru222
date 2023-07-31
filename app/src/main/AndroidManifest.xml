@@ -38,7 +38,6 @@
         <activity android:name=".Activity24_searching" android:exported="true"/>
         <activity android:name=".Activity25" android:exported="true"/>
         <activity android:name=".Activity26" android:exported="true"/>
-        <activity android:name=".Activity27" android:exported="true"/>
 
 
 
