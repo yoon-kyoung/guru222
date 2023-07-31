@@ -12,36 +12,44 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApplication"
         tools:targetApi="31">
+        <activity android:name=".Activity2" android:exported="true"/>
+        <activity android:name=".Activity3" android:exported="true"/>
+        <activity android:name=".Activity4" android:exported="true"/>
+        <activity android:name=".Activity5" android:exported="true"/>
+        <activity android:name=".Activity6" android:exported="true"/>
+        <activity android:name=".Activity7" android:exported="true"/>
+        <activity android:name=".Activity8" android:exported="true"/>
+        <activity android:name=".Activity9" android:exported="true"/>
+        <activity android:name=".Activity10" android:exported="true"/>
+        <activity android:name=".Activity11" android:exported="true"/>
+
+        <activity android:name=".Activity13" android:exported="true"/>
+        <activity android:name=".Activity14" android:exported="true"/>
+        <activity android:name=".Activity15" android:exported="true"/>
+        <activity android:name=".Activity16" android:exported="true"/>
+        <activity android:name=".Activity17" android:exported="true"/>
+        <activity android:name=".Activity18" android:exported="true"/>
+        <activity android:name=".Activity19" android:exported="true"/>
+        <activity android:name=".Activity20" android:exported="true"/>
+        <activity android:name=".Activity21" android:exported="true"/>
+        <activity android:name=".Activity22" android:exported="true"/>
+
+        <activity android:name=".Activity23" android:exported="true"/>
+        <activity android:name=".Activity24" android:exported="true"/>
+        <activity android:name=".Activity25" android:exported="true"/>
+        <activity android:name=".Activity26" android:exported="true"/>
+
+
+
         <activity
-            android:name=".SignUpActivity"
-            android:exported="false"
-            tools:ignore="MissingClass" />
-        <activity
-            android:name=".TwoActivity"
-            android:exported="true"
-            tools:ignore="MissingClass" />
-        <activity
-            android:name=".LoginActivity"
-            android:exported="true"
-            tools:ignore="MissingClass">
+            android:name=".MainActivity"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name=".MainActivity"
-            android:exported="false"
-            tools:ignore="MissingClass" />
-        <activity
-            android:name=".SignActivity"
-            android:exported="false"
-            tools:ignore="MissingClass" />
-        <activity
-            android:name=".RegisterActivity"
-            android:exported="false"
-            tools:ignore="MissingClass" />
     </application>
 
 </manifest>

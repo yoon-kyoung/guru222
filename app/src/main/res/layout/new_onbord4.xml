@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/intermedium"
+            android:text="이전"
+            android:textColor="@color/gray_700"
+            android:textSize="20dp"
+            tools:ignore="MissingConstraints"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:id="@+id/Next"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/intermedium"
+            android:text="다음"
+            android:textColor="@color/gray_700"
+            android:textSize="20dp"
+            tools:ignore="MissingConstraints"
+            android:layout_marginLeft="300dp"
+            android:layout_marginTop="10dp"/>
+
+
+    </LinearLayout>
+
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="412dp"
+        android:layout_height="513dp"
+        android:src="@drawable/new_onbord4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="64dp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/mbtibtn2"
+        style="@style/btnSolidRounded"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mbtibtn1"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="40dp"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:paddingTop="14.19dp"
+        android:paddingBottom="14.19dp"
+        android:singleLine="true"
+        android:text="시작하기"
+        android:textAllCaps="false"
+        android:textSize="18dp" />
+
+
+</LinearLayout>

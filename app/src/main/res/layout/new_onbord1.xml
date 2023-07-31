@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/intermedium"
+            android:text="이전"
+            android:textColor="@color/gray_700"
+            android:textSize="20dp"
+            tools:ignore="MissingConstraints"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:id="@+id/Next"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/intermedium"
+            android:text="다음"
+            android:textColor="@color/gray_700"
+            android:textSize="20dp"
+            tools:ignore="MissingConstraints"
+            android:layout_marginLeft="300dp"
+            android:layout_marginTop="10dp"/>
+
+
+    </LinearLayout>
+
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="412dp"
+        android:layout_height="513dp"
+        android:src="@drawable/new_onbord1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="64dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="180dp"
+        android:layout_marginBottom="3dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/inter"
+        android:text="건너뛰기"
+        android:textColor="@color/gray_700"
+        android:textSize="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:ignore="MissingConstraints,TextSizeCheck"
+        tools:layout_editor_absoluteX="191dp" />
+    <View
+        android:id="@+id/mbtiline1"
+        android:layout_width="40dp"
+        android:layout_height="1dp"
+        android:background="@color/gray_700"
+        app:layout_constraintTop_toBottomOf="@id/textView4"
+        app:layout_constraintStart_toStartOf="@id/textView4"
+        app:layout_constraintEnd_toEndOf="@id/textView22"
+        tools:ignore="NotSibling"
+        android:layout_marginLeft="180dp"/>
+
+
+</LinearLayout>
