@@ -47,6 +47,7 @@
         <activity android:name=".LoginActivity" android:exported="true"/>
         <activity android:name=".SignUpActivity" android:exported="true"/>
         <activity android:name=".User" android:exported="true"/>
+        <activity android:name=".SearchingActivity111" android:exported="true"/>
         <activity
             android:name=".MainActivity"
             android:exported="true">
