@@ -20,7 +20,7 @@
         <activity android:name=".Activity7" android:exported="true"/>
         <activity android:name=".Activity8" android:exported="true"/>
         <activity android:name=".Activity9" android:exported="true"/>
-        <activity android:name=".Activity10" android:exported="true"/>
+        <activity android:name=".Activity10_mbti" android:exported="true"/>
         <activity android:name=".Activity11" android:exported="true"/>
 
         <activity android:name=".Activity13" android:exported="true"/>
@@ -32,10 +32,10 @@
         <activity android:name=".Activity19" android:exported="true"/>
         <activity android:name=".Activity20" android:exported="true"/>
         <activity android:name=".Activity21" android:exported="true"/>
-        <activity android:name=".Activity22" android:exported="true"/>
+        <activity android:name=".Activity22_mbti_result" android:exported="true"/>
 
-        <activity android:name=".Activity23" android:exported="true"/>
-        <activity android:name=".Activity24" android:exported="true"/>
+        <activity android:name=".Activity23_my" android:exported="true"/>
+        <activity android:name=".Activity24_searching" android:exported="true"/>
         <activity android:name=".Activity25" android:exported="true"/>
         <activity android:name=".Activity26" android:exported="true"/>
 

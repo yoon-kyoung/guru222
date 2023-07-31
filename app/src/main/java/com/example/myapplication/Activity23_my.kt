@@ -4,11 +4,10 @@ import android.annotation.SuppressLint
 import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
-import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.widget.AppCompatButton
 
-class Activity23 : AppCompatActivity() {
+class Activity23_my : AppCompatActivity() {
 
     @SuppressLint("MissingInflatedId")
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -20,7 +19,7 @@ class Activity23 : AppCompatActivity() {
         val memoey = findViewById<Button>(R.id.mybtn2)
 
         next.setOnClickListener {
-            var intent = Intent(this, Activity24::class.java) //searching으로 이동
+            var intent = Intent(this, Activity24_searching::class.java) //searching으로 이동
             startActivity(intent)
         }
 
