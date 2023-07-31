@@ -11,7 +11,7 @@ class Activity26  : AppCompatActivity() {
     @SuppressLint("MissingInflatedId")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.tripmemory)
+        setContentView(R.layout.searching)
 
     }
 }

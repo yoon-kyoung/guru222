@@ -12,7 +12,8 @@
         android:layout_gravity="bottom"
         tools:layout_editor_absoluteX="-1dp"
         tools:layout_editor_absoluteY="636dp"
-        tools:ignore="BottomAppBar,MissingConstraints" />
+        tools:ignore="BottomAppBar,MissingConstraints"
+        />
 
     <ImageView
         android:id="@+id/imageView"
