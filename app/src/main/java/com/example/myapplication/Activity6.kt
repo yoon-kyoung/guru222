@@ -3,6 +3,8 @@ package com.example.myapplication
 import android.annotation.SuppressLint
 import android.content.Intent
 import android.os.Bundle
+import android.widget.Button
+import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.widget.AppCompatButton
 
@@ -11,14 +13,21 @@ class Activity6 : AppCompatActivity() {
     @SuppressLint("MissingInflatedId")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.join_1)
+        setContentView(R.layout.activity_login)
 
-        val next = findViewById<AppCompatButton>(R.id.nextButton)
+        val next = findViewById<AppCompatButton>(R.id.loginBtn)
+        val join = findViewById<TextView>(R.id.textView4)
 
         next.setOnClickListener {
+            var intent = Intent(this, Activity23::class.java)
+            startActivity(intent)
+        }
+
+        join.setOnClickListener {
             var intent = Intent(this, Activity7::class.java)
             startActivity(intent)
         }
+
 
     }
 }
