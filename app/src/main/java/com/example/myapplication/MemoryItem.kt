@@ -53,23 +53,22 @@ class MemoryItem :AppCompatActivity(){
             var str_friend = cursor.getString(columnIndex2).toString()
             val columnIndex3 = cursor.getColumnIndex("record")
             var str_record = cursor.getString(columnIndex3).toString()
-            //val columnIndex4 = cursor.getColumnIndex("date")
-           // var str_date = cursor.getString(columnIndex4).toString()
+            val columnIndex4 = cursor.getColumnIndex("date")
+            var str_date = cursor.getString(columnIndex4).toString()
 
             var layout_item:LinearLayout= LinearLayout(this)
             layout_item.orientation=LinearLayout.VERTICAL
             layout_item.id=num
 
-
+            var tvdate:TextView=TextView(this)
+            tvdate.text=str_date
+            tvdate.textSize=16f
+            layout_item.addView(tvdate)
             var tvNation:TextView=TextView(this)
             tvNation.text=str_nation
-            tvNation.textSize=16f
+            tvNation.textSize=20f
             layout_item.addView(tvNation)
 
-            var tvSubject:TextView=TextView(this)
-            tvSubject.text=str_subject
-            tvSubject.textSize=16f
-            layout_item.addView(tvSubject)
 
 
             layout_item.setOnClickListener{
