@@ -54,12 +54,12 @@
                     android:layout_height="wrap_content"
                     android:layout_marginEnd="29.76dp"
                     android:layout_marginStart="29.76dp"
-                    android:layout_marginTop="14dp"
+                    android:layout_marginTop="5dp"
                     android:layout_width="match_parent" android:orientation="horizontal">
 
                     <EditText
                         android:id="@+id/mt3"
-                        android:background="@drawable/rectangle_border_gray_401_radius_7"
+                        android:backgroundTint="@color/bluegray_600"
                         android:layout_height="50dp"
                         android:layout_weight="0.78"
                         android:layout_width="0dp"/>
@@ -69,7 +69,7 @@
                     android:id="@+id/mt4"
                     android:layout_below="@id/mt2"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="90dp"
+                    android:layout_marginTop="80dp"
                     android:layout_marginStart="28dp"
                     android:layout_width="wrap_content"
                     android:textStyle="bold"
@@ -82,12 +82,12 @@
                     android:layout_height="wrap_content"
                     android:layout_marginEnd="29.76dp"
                     android:layout_marginStart="29.76dp"
-                    android:layout_marginTop="14dp"
+                    android:layout_marginTop="5dp"
                     android:layout_width="match_parent" android:orientation="horizontal">
 
                     <EditText
                         android:id="@+id/mt5"
-                        android:background="@drawable/rectangle_border_gray_401_radius_7"
+                        android:backgroundTint="@color/bluegray_600"
                         android:layout_height="50dp"
                         android:layout_weight="0.78"
                         android:layout_width="0dp"/>
@@ -97,54 +97,34 @@
                     android:id="@+id/mt6"
                     android:layout_below="@id/mt4"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="90dp"
+                    android:layout_marginTop="80dp"
                     android:layout_marginStart="28dp"
                     android:layout_width="wrap_content"
                     android:textStyle="bold"
                     android:fontFamily="@font/interbold"
                     android:textSize="18dp"
                     android:text="여행 기간"/>
-                <LinearLayout android:id="@+id/linearRowrectangle4409"
+                <LinearLayout android:id="@+id/linearRowrectangle44012"
                     android:layout_below="@+id/mt6"
                     android:layout_height="wrap_content"
                     android:layout_marginEnd="29.76dp"
                     android:layout_marginStart="29.76dp"
-                    android:layout_marginTop="14dp"
-                    android:layout_width="match_parent" android:orientation="vertical">
-                    <RelativeLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content">
-                        <TextView
-                            android:id="@+id/startDateTextView"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_marginBottom="10dp"
-                            android:text="날짜를 선택해 주세요."
-                            android:gravity="center"
-                            android:fontFamily="@font/intermedium"
-                            android:textColor="@color/gray_800"
-                            android:textSize="16dp" />
-                    </RelativeLayout>
-                    <View
-                        android:background="@color/bluegray_600"
-                        android:id="@+id/tmline1"
-                        android:layout_gravity="center"
-                        android:layout_height="4dp"
-                        android:layout_marginTop="-8dp"
-                        android:layout_marginBottom="20dp"
-                        android:layout_centerHorizontal="true"
-                        android:layout_width="180dp"/>
-                    <CalendarView
-                        android:background="@drawable/calenbutton"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:id="@+id/calendarView"/>
+                    android:layout_marginTop="5dp"
+                    android:layout_width="match_parent" android:orientation="horizontal">
+
+                    <EditText
+                        android:id="@+id/mtt"
+                        android:backgroundTint="@color/bluegray_600"
+                        android:layout_height="50dp"
+                        android:layout_weight="0.78"
+                        android:layout_width="0dp"/>
+
                 </LinearLayout>
                 <TextView
                     android:id="@+id/mt7"
                     android:layout_below="@+id/mt6"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="410dp"
+                    android:layout_marginTop="80dp"
                     android:layout_marginStart="28dp"
                     android:layout_width="wrap_content"
                     android:textStyle="bold"
@@ -157,12 +137,12 @@
                     android:layout_height="wrap_content"
                     android:layout_marginEnd="29.76dp"
                     android:layout_marginStart="29.76dp"
-                    android:layout_marginTop="14dp"
+                    android:layout_marginTop="5dp"
                     android:layout_width="match_parent" android:orientation="horizontal">
 
                     <EditText
                         android:id="@+id/mt8"
-                        android:background="@drawable/rectangle_border_gray_401_radius_7"
+                        android:backgroundTint="@color/bluegray_600"
                         android:layout_height="50dp"
                         android:layout_weight="0.78"
                         android:layout_width="0dp"/>
@@ -172,7 +152,7 @@
                     android:id="@+id/mt9"
                     android:layout_below="@+id/mt7"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="90dp"
+                    android:layout_marginTop="80dp"
                     android:layout_marginStart="28dp"
                     android:layout_width="wrap_content"
                     android:textStyle="bold"
@@ -186,7 +166,7 @@
                     android:layout_marginStart="35dp"
                     android:layout_width="60dp"
                     android:layout_height="60dp"
-                    android:backgroundTint="@color/gray_200"/>
+                    android:backgroundTint="#F3F7DE"/>
                 <Button
                     android:id="@+id/mt11"
                     android:layout_below="@+id/mt9"
@@ -219,6 +199,7 @@
                     android:layout_width="60dp"
                     android:layout_height="60dp"
                     android:backgroundTint="@color/gray_200"/>
+
                 <LinearLayout android:id="@+id/linearRowrectangle4412"
                     android:layout_below="@+id/mt14"
                     android:layout_height="wrap_content"
@@ -248,19 +229,37 @@
                     style="@style/btnSolidRounded"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_below="@+id/linearRowrectangle4412"
+                    android:layout_below="@+id/modifybtn"
                     android:ellipsize="end"
                     android:gravity="center"
                     android:layout_marginStart="32.04dp"
                     android:layout_marginEnd="32.04dp"
                     android:layout_marginBottom="30dp"
-                    android:layout_marginTop="30dp"
+                    android:layout_marginTop="20dp"
                     android:paddingTop="14.19dp"
                     android:paddingBottom="14.19dp"
                     android:singleLine="true"
-                    android:text="여행기록 남기기"
+                    android:text="my로 돌아가기"
                     android:textSize="18dp"
                     android:textAllCaps="false"/>
+                <androidx.appcompat.widget.AppCompatButton
+                    android:layout_width="170dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/modifybtn"
+                    android:layout_marginTop="10dp"
+                    android:layout_below="@+id/linearRowrectangle4412"
+                    android:layout_marginStart="32.04dp"
+                    style="@style/btnSolidRounded"
+                    android:text="수정하기"/>
+                <androidx.appcompat.widget.AppCompatButton
+                    android:layout_width="170dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/deletebtn"
+                    android:layout_below="@+id/linearRowrectangle4412"
+                    android:layout_marginStart="210dp"
+                    android:layout_marginTop="10dp"
+                    style="@style/btnSolidRounded"
+                    android:text="삭제하기"/>
 
 
             </RelativeLayout>
