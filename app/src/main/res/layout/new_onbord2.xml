@@ -38,23 +38,56 @@
     </LinearLayout>
 
 
+    <TextView
+        android:id="@+id/w1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="110dp"
+        android:layout_marginTop="40dp"
+        android:fontFamily="@font/interbold"
+        android:text="나의 여행 관리"
+        android:textColor="@color/gray_800"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/w"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="25dp"
+        android:fontFamily="@font/intermedium"
+        android:singleLine="true"
+        android:text="계획한 여행, 저장한 여행,다녀온 여행 기록을"
+        android:textColor="@color/gray_800"
+        android:textSize="18dp" />
+    <TextView
+        android:id="@+id/w3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="130dp"
+        android:layout_marginTop="-4dp"
+        android:fontFamily="@font/intermedium"
+        android:singleLine="true"
+        android:text="한번에 관리해보세요"
+        android:textColor="@color/gray_800"
+        android:textSize="18dp" />
     <ImageView
         android:id="@+id/imageView8"
         android:layout_width="412dp"
-        android:layout_height="513dp"
-        android:src="@drawable/new_onbord2"
+        android:layout_height="370dp"
+        android:src="@drawable/o2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteY="64dp" />
+        android:layout_marginTop="20dp" />
 
     <TextView
         android:id="@+id/textView4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="170dp"
+        android:layout_marginLeft="175dp"
         android:layout_marginBottom="3dp"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="30dp"
         android:fontFamily="@font/inter"
         android:text="건너뛰기"
         android:textColor="@color/gray_700"
@@ -70,7 +103,7 @@
         app:layout_constraintTop_toBottomOf="@id/textView4"
         app:layout_constraintStart_toStartOf="@id/textView4"
         tools:ignore="NotSibling"
-        android:layout_marginLeft="168dp"/>
+        android:layout_marginLeft="173dp"/>
 
 
 </LinearLayout>
