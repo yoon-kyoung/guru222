@@ -19,29 +19,29 @@
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="42dp"
-        android:layout_height="48dp"
+        android:layout_width="38dp"
+        android:layout_height="38dp"
         app:srcCompat="@drawable/lo"
-        tools:layout_editor_absoluteX="184dp"
-        tools:layout_editor_absoluteY="650dp"
+        tools:layout_editor_absoluteX="185dp"
+        tools:layout_editor_absoluteY="655dp"
         tools:ignore="MissingConstraints" />
 
     <ImageView
         android:id="@+id/imageView3"
-        android:layout_width="47dp"
-        android:layout_height="48dp"
+        android:layout_width="38dp"
+        android:layout_height="38dp"
         app:srcCompat="@drawable/se"
-        tools:layout_editor_absoluteX="317dp"
-        tools:layout_editor_absoluteY="650dp"
+        tools:layout_editor_absoluteX="325dp"
+        tools:layout_editor_absoluteY="655dp"
         tools:ignore="MissingConstraints" />
 
     <ImageView
         android:id="@+id/imageView4"
-        android:layout_width="41dp"
-        android:layout_height="49dp"
+        android:layout_width="38dp"
+        android:layout_height="38dp"
         app:srcCompat="@drawable/st"
         tools:layout_editor_absoluteX="40dp"
-        tools:layout_editor_absoluteY="650dp"
+        tools:layout_editor_absoluteY="655dp"
         tools:ignore="MissingConstraints" />
 
     <TextView
@@ -50,7 +50,7 @@
         android:layout_height="wrap_content"
         android:text="나의여행"
         tools:layout_editor_absoluteX="34dp"
-        tools:layout_editor_absoluteY="707dp"
+        tools:layout_editor_absoluteY="698dp"
         tools:ignore="MissingConstraints" />
 
     <TextView
@@ -59,7 +59,7 @@
         android:layout_height="wrap_content"
         android:text="탐색하기"
         tools:layout_editor_absoluteX="179dp"
-        tools:layout_editor_absoluteY="707dp"
+        tools:layout_editor_absoluteY="698dp"
         tools:ignore="MissingConstraints" />
 
     <TextView
@@ -68,7 +68,7 @@
         android:layout_height="wrap_content"
         android:text="환경설정"
         tools:layout_editor_absoluteX="317dp"
-        tools:layout_editor_absoluteY="707dp"
+        tools:layout_editor_absoluteY="698dp"
         tools:ignore="MissingConstraints" />
 
     <Space

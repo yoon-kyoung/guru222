@@ -202,5 +202,12 @@
             </RelativeLayout>
         </LinearLayout>
     </ScrollView>
+    <include
+        android:id="@+id/bottom_search"
+        layout="@layout/bottom_search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="0dp"
+        android:layout_alignParentBottom="true" />
 
 </RelativeLayout>
