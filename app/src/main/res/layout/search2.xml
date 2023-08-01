@@ -111,7 +111,7 @@
         android:layout_alignParentStart="true"
         android:layout_marginStart="145dp"
         android:layout_marginTop="7dp"
-        android:src="@drawable/lvg2" />
+        android:src="@drawable/lvg2"/>
     <ImageView
         android:id="@+id/search6"
         android:layout_width="120dp"
