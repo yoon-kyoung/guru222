@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
     <ScrollView
@@ -164,7 +165,8 @@
                     android:singleLine="true"
                     android:text="*사진을 클릭하여 자세한 여행 정보를 확인해보세요!"
                     android:textColor="@color/gray_800"
-                    android:textSize="12dp" />
+                    android:textSize="12dp"
+                    tools:ignore="TextSizeCheck" />
 
                 <androidx.appcompat.widget.AppCompatButton
                     android:id="@+id/isfpbtn1"
