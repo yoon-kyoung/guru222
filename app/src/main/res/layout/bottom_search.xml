@@ -19,27 +19,27 @@
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="38dp"
-        android:layout_height="38dp"
-        app:srcCompat="@drawable/lo"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        app:srcCompat="@drawable/serachh"
         tools:layout_editor_absoluteX="185dp"
         tools:layout_editor_absoluteY="655dp"
         tools:ignore="MissingConstraints" />
 
     <ImageView
         android:id="@+id/imageView3"
-        android:layout_width="38dp"
-        android:layout_height="38dp"
-        app:srcCompat="@drawable/se"
-        tools:layout_editor_absoluteX="325dp"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        app:srcCompat="@drawable/settingg"
+        tools:layout_editor_absoluteX="323dp"
         tools:layout_editor_absoluteY="655dp"
         tools:ignore="MissingConstraints" />
 
     <ImageView
         android:id="@+id/imageView4"
-        android:layout_width="38dp"
-        android:layout_height="38dp"
-        app:srcCompat="@drawable/st"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        app:srcCompat="@drawable/myyg"
         tools:layout_editor_absoluteX="40dp"
         tools:layout_editor_absoluteY="655dp"
         tools:ignore="MissingConstraints" />

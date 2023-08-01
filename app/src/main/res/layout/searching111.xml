@@ -8,7 +8,13 @@
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent">
-
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
     <Space
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -421,7 +427,7 @@
         android:layout_marginTop="18dp"
         android:layout_marginEnd="16dp"
         android:layout_toStartOf="@+id/imageView18"
-        app:srcCompat="@drawable/swi" />
+        android:src="@drawable/swi"/>
 
     <ImageView
         android:id="@+id/imageView18"
@@ -433,7 +439,7 @@
         android:layout_marginTop="-4dp"
         android:layout_marginEnd="18dp"
         android:layout_marginBottom="40dp"
-        app:srcCompat="@drawable/la" />
+        android:src="@drawable/la" />
 
 
     <ImageView
@@ -451,7 +457,7 @@
     <ImageView
         android:id="@+id/imageView20"
         android:layout_width="178dp"
-        android:layout_height="wrap_content"
+        android:layout_height="136dp"
         android:layout_below="@+id/textView17"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
@@ -461,17 +467,6 @@
         android:layout_marginBottom="114dp"
         android:layout_toEndOf="@+id/imageView19"
         app:srcCompat="@drawable/ba" />
-
-    <com.google.android.material.bottomappbar.BottomAppBar
-        android:id="@+id/bottomAppBar2"
-        android:layout_width="match_parent"
-        android:layout_height="84dp"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:layout_gravity="bottom"
-        android:layout_marginEnd="0dp"
-        android:layout_marginBottom="1dp"
-        tools:ignore="BottomAppBar" />
 
     <ImageView
         android:id="@+id/imageView5"
@@ -494,7 +489,8 @@
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="3dp"
         app:srcCompat="@drawable/ll" />
-
+        </RelativeLayout>
+        </LinearLayout>
     </ScrollView>
 
 </RelativeLayout>

@@ -9,7 +9,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
-            android:background="@drawable/my1">
+            android:background="@drawable/my2">
             <RelativeLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
@@ -90,7 +90,7 @@
                     android:layout_height="wrap_content"
                     android:layout_below="@+id/my5"
                     android:layout_marginStart="25dp"
-                    android:layout_marginTop="30dp"
+                    android:layout_marginTop="25dp"
                     android:fontFamily="@font/interbold"
                     android:text="저장한 여행지"
                     android:textColor="@color/gray_800"
@@ -127,7 +127,7 @@
                     android:layout_height="wrap_content"
                     android:layout_below="@+id/my7"
                     android:layout_marginStart="25dp"
-                    android:layout_marginTop="30dp"
+                    android:layout_marginTop="25dp"
                     android:fontFamily="@font/interbold"
                     android:text="나의 여행 기록"
                     android:textColor="@color/gray_800"
@@ -182,7 +182,7 @@
                     android:layout_marginStart="40dp"
                     android:layout_marginTop="18dp"
                     android:layout_marginEnd="40dp"
-                    android:layout_marginBottom="25dp"
+                    android:layout_marginBottom="100dp"
                     android:ellipsize="end"
                     android:gravity="center"
                     android:singleLine="true"
@@ -191,8 +191,16 @@
                     android:textSize="15dp"/>
 
 
+
             </RelativeLayout>
         </LinearLayout>
     </ScrollView>
+    <include
+        android:id="@+id/bottom_my"
+        layout="@layout/bottom_my"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="0dp"
+        android:layout_alignParentBottom="true" />
 
 </RelativeLayout>
