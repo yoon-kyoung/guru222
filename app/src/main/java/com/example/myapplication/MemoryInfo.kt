@@ -6,6 +6,7 @@ import android.database.sqlite.SQLiteDatabase
 import android.graphics.Color
 import android.os.Bundle
 import android.widget.Button
+import android.widget.ImageView
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 
@@ -40,6 +41,12 @@ class MemoryInfo:AppCompatActivity() {
         tvDate=findViewById(R.id.mtt)
         listbtn=findViewById(R.id.mtbtn1)
         deletebtn=findViewById(R.id.deletebtn)
+        var back=findViewById<ImageView>(R.id.closeIcon)
+
+        back.setOnClickListener{
+            val intent1= Intent(this,MemoryItem::class.java)
+            startActivity(intent1)
+        }
 
         listbtn.setOnClickListener{
             val intent1= Intent(this,MemoryItem::class.java)
