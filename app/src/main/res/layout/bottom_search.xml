@@ -6,6 +6,7 @@
     android:layout_height="match_parent">
 
     <com.google.android.material.bottomappbar.BottomAppBar
+        android:backgroundTint="@color/white"
         android:id="@+id/bottomAppBar"
         android:layout_width="412dp"
         android:layout_height="92dp"
@@ -15,13 +16,14 @@
         tools:ignore="BottomAppBar,MissingConstraints"
         />
 
+
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="42dp"
         android:layout_height="48dp"
         app:srcCompat="@drawable/lo"
         tools:layout_editor_absoluteX="184dp"
-        tools:layout_editor_absoluteY="655dp"
+        tools:layout_editor_absoluteY="650dp"
         tools:ignore="MissingConstraints" />
 
     <ImageView
@@ -30,7 +32,7 @@
         android:layout_height="48dp"
         app:srcCompat="@drawable/se"
         tools:layout_editor_absoluteX="317dp"
-        tools:layout_editor_absoluteY="655dp"
+        tools:layout_editor_absoluteY="650dp"
         tools:ignore="MissingConstraints" />
 
     <ImageView
@@ -39,7 +41,7 @@
         android:layout_height="49dp"
         app:srcCompat="@drawable/st"
         tools:layout_editor_absoluteX="40dp"
-        tools:layout_editor_absoluteY="655dp"
+        tools:layout_editor_absoluteY="650dp"
         tools:ignore="MissingConstraints" />
 
     <TextView
