@@ -12,5 +12,7 @@ class Activity24_searching : AppCompatActivity() {
         setContentView(R.layout.searching111)
 
 
+
+
     }
 }
