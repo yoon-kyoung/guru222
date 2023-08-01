@@ -16,7 +16,7 @@ class MainActivity : AppCompatActivity() {
         val moveButton = findViewById<Button>(R.id.btn_a)
 
         moveButton.setOnClickListener {
-            var intent = Intent(this, Activity27::class.java)
+            var intent = Intent(this, LoginActivity::class.java)
             startActivity(intent)
         }
 

@@ -9,7 +9,7 @@ class Activity24_searching : AppCompatActivity() {
     @SuppressLint("MissingInflatedId")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.searching)
+        setContentView(R.layout.searching111)
 
 
     }

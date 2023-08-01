@@ -359,13 +359,13 @@
 
     <ImageView
         android:id="@+id/imageView17"
-        android:layout_width="195dp"
-        android:layout_height="137dp"
+        android:layout_width="189dp"
+        android:layout_height="136dp"
         android:layout_below="@+id/textView16"
         android:layout_alignParentStart="true"
-        android:layout_marginStart="15dp"
-        android:layout_marginTop="14dp"
-        android:layout_marginEnd="23dp"
+        android:layout_marginStart="19dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginEnd="16dp"
         android:layout_toStartOf="@+id/imageView18"
         app:srcCompat="@drawable/swi" />
 
@@ -381,26 +381,38 @@
 
     <ImageView
         android:id="@+id/imageView19"
-        android:layout_width="181dp"
+        android:layout_width="185dp"
         android:layout_height="138dp"
         android:layout_below="@+id/imageView17"
         android:layout_alignParentStart="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="14dp"
+        android:layout_marginStart="19dp"
         android:layout_marginTop="30dp"
-        android:layout_marginBottom="65dp"
+        android:layout_marginBottom="62dp"
         app:srcCompat="@drawable/to" />
 
     <ImageView
         android:id="@+id/imageView20"
-        android:layout_width="184dp"
-        android:layout_height="200dp"
+        android:layout_width="178dp"
+        android:layout_height="211dp"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="27dp"
+        android:layout_marginStart="21dp"
         android:layout_marginEnd="15dp"
-        android:layout_marginBottom="34dp"
+        android:layout_marginBottom="23dp"
         android:layout_toEndOf="@+id/imageView19"
         app:srcCompat="@drawable/ba" />
+
+    <ImageView
+        android:id="@+id/imageView23"
+        android:layout_width="212dp"
+        android:layout_height="49dp"
+        android:layout_alignTop="@+id/imageView18"
+        android:layout_alignEnd="@+id/imageView18"
+        android:layout_alignBottom="@+id/imageView18"
+        android:layout_marginTop="116dp"
+        android:layout_marginEnd="-16dp"
+        android:layout_marginBottom="7dp"
+        app:srcCompat="@drawable/latext" />
 
 </RelativeLayout>

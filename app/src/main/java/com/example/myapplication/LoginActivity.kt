@@ -21,7 +21,7 @@ class LoginActivity : AppCompatActivity() {
         setContentView(binding.root)
 
         //인증 초기화
-        var myAuth = Firebase.auth
+        //var myAuth = Firebase.auth
 
         //로그인 버튼 이벤트
         binding.loginBtn.setOnClickListener{
@@ -31,31 +31,39 @@ class LoginActivity : AppCompatActivity() {
             login(email, password)
         }
 
+        binding.textView4.setOnClickListener {
+            val intent = Intent(this@LoginActivity, SignUpActivity::class.java)
+            startActivity(intent)
+        }
+
         fun Intent(loginActivity: LoginActivity) {
 
         }
 
         //로그인
-        fun login(email:String, password:String){
-    mAuth.signInWithEmailAndPassword(email, password)
-        .addOnCompleteListener(this){task ->
-            if(task.isSuccessful){
-                val intent: Intent =Intent(this@LoginActivity,
-                MainActivity::class.java)
-                startActivity(intent)
-                Toast.makeText(this, "로그인 성공", Toast.LENGTH_SHORT).show()
-                finish()
-            } else {
-                //실패시
-                Toast.makeText(this, "로그인 실패", Toast.LENGTH_SHORT).show()
-                Log.d("Login", "Error: $(task.exception}")
-        }
-            }
-            }
-        }
-
-    private fun login(email: String, password: String) {
 
     }
+
+    private fun login(email:String, password:String) {
+        mAuth = Firebase.auth
+        mAuth.signInWithEmailAndPassword(email, password)
+            .addOnCompleteListener(this){task ->
+                if(task.isSuccessful){
+                    val intent: Intent =Intent(this@LoginActivity,
+                        MainActivity::class.java)
+                    startActivity(intent)
+                    Toast.makeText(this, "로그인 성공", Toast.LENGTH_SHORT).show()
+                    finish()
+                } else {
+                    //실패시
+                    Toast.makeText(this, "로그인 실패", Toast.LENGTH_SHORT).show()
+                    Log.d("Login", "Error: $(task.exception}")
+                }
+            }
+    }
+
+    //private fun login(email: String, password: String) {
+
+   // }
 }
 

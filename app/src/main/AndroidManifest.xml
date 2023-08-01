@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools">
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.myapplication">
 
     <application
         android:allowBackup="true"
@@ -43,10 +44,8 @@
         <activity android:name=".MemoryItem" android:exported="true"/>
         <activity android:name=".MemoryInfo" android:exported="true"/>
         <activity android:name=".MemoryReg" android:exported="true"/>
-        <activity android:name=".DBManager" android:exported="true"/>
         <activity android:name=".LoginActivity" android:exported="true"/>
         <activity android:name=".SignUpActivity" android:exported="true"/>
-        <activity android:name=".User" android:exported="true"/>
         <activity android:name=".SearchingActivity111" android:exported="true"/>
         <activity
             android:name=".MainActivity"

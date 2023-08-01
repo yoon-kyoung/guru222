@@ -1,9 +1,10 @@
+package com.example.myapplication
+
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Toast
 import android.content.Intent
 import android.util.Log
-import com.example.myapplication.MainActivity
 import com.example.myapplication.databinding.ActivitySignUpBinding
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.ktx.auth
@@ -33,6 +34,8 @@ class SignUpActivity : AppCompatActivity() {
             val email = binding.emailEdit.text.toString().trim()
             val password = binding.passwordEdit.text.toString().trim()
 
+            Log.d("signup", email)
+            Log.d("signup", password)
             signUp(email, password)
         }
     }
