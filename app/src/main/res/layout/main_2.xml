@@ -24,7 +24,7 @@
                 android:layout_height="20dp"
                 android:layout_width="10dp"
                 android:id="@+id/back"
-                tools:src="@drawable/img_arrowleft"/>
+                android:src="@drawable/img_arrowleft"/>
 
             <TextView
                 android:id="@+id/txtENFP"
@@ -61,7 +61,7 @@
                     android:layout_height="310dp"
                     android:layout_width="match_parent"
                     android:scaleType="fitXY"
-                    tools:src="@drawable/img_image590"/>
+                    android:src="@drawable/img_image590"/>
 
                 <LinearLayout
                     android:layout_height="wrap_content"
@@ -141,7 +141,7 @@
                     android:layout_marginTop="8.89dp"
                     android:layout_width="match_parent"
                     android:scaleType="fitXY"
-                    tools:src="@drawable/img_2023"/>
+                    android:src="@drawable/img_2023"/>
             </LinearLayout>
 
             <View
@@ -527,7 +527,8 @@
                                 android:layout_height="184.26dp"
                                 android:layout_width="315.87dp"
                                 android:scaleType="fitXY"
-                                tools:src="@drawable/img_image585"/>
+
+                                android:src="@drawable/img_image585"/>
                             <TextView
                                 android:layout_height="wrap_content"
                                 android:layout_marginEnd="58.37dp"
@@ -546,7 +547,7 @@
                                 android:layout_height="184.26dp"
                                 android:layout_width="315.87dp"
                                 android:scaleType="fitXY"
-                                tools:src="@drawable/img_image586"
+                                android:src="@drawable/img_image586"
                                 android:layout_marginStart="9dp"/>
 
                             <TextView
@@ -617,7 +618,7 @@
                             android:layout_height="275.81dp"
                             android:layout_width="322.73dp"
                             android:scaleType="fitXY"
-                            tools:src="@drawable/img_2023_241x282"/>
+                            android:src="@drawable/img_2023_241x282"/>
 
                         <ImageView
                             android:layout_height="275.81dp"
@@ -625,7 +626,7 @@
                             android:scaleType="fitXY"
                             android:layout_marginBottom="1.62dp"
                             android:layout_marginStart="13.73dp"
-                            tools:src="@drawable/img_2023_239x283"/>
+                            android:src="@drawable/img_2023_239x283"/>
 
                     </LinearLayout>
                 </HorizontalScrollView>
