@@ -151,7 +151,7 @@
                     android:layout_alignStart="@+id/imageView33"
                     android:layout_alignEnd="@+id/imageView33"
                     android:layout_marginStart="12dp"
-                    android:layout_marginTop="-161dp"
+                    android:layout_marginTop="-160dp"
                     android:layout_marginEnd="127dp"
                     android:text="떠나고 싶은 여행지를 찾아보세요." />
 
@@ -188,19 +188,21 @@
                     android:layout_marginTop="-6dp"
                     android:fontFamily="@font/interbold"
                     android:text="일본 도쿄"
-                    android:textSize="15dp" />
+                    android:textSize="15dp"
+                    tools:ignore="TextSizeCheck" />
 
                 <TextView
                     android:id="@+id/textView19"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_below="@+id/imageView34"
+                    android:layout_alignTop="@+id/imageView20"
                     android:layout_alignParentStart="true"
                     android:layout_marginStart="289dp"
-                    android:layout_marginTop="663dp"
+                    android:layout_marginTop="154dp"
                     android:fontFamily="@font/interbold"
                     android:text="인도네시아 발리"
-                    android:textSize="15dp" />
+                    android:textSize="15dp"
+                    tools:ignore="TextSizeCheck" />
 
                 <TextView
                     android:id="@+id/textView17"
@@ -212,7 +214,8 @@
                     android:layout_marginTop="466dp"
                     android:fontFamily="@font/interbold"
                     android:text="미국 로스엔젤라스"
-                    android:textSize="15dp" />
+                    android:textSize="15dp"
+                    tools:ignore="TextSizeCheck" />
 
                 <TextView
                     android:id="@+id/textView23"
@@ -437,11 +440,11 @@
                     android:id="@+id/imageView18"
                     android:layout_width="wrap_content"
                     android:layout_height="195dp"
-                    android:layout_below="@+id/textView16"
+                    android:layout_below="@+id/textView13"
                     android:layout_alignStart="@+id/textView17"
                     android:layout_alignParentEnd="true"
                     android:layout_marginStart="-42dp"
-                    android:layout_marginTop="-17dp"
+                    android:layout_marginTop="73dp"
                     android:layout_marginEnd="25dp"
                     android:src="@drawable/la" />
 
@@ -462,7 +465,7 @@
                     android:layout_below="@+id/imageView18"
                     android:layout_alignParentEnd="true"
                     android:layout_marginStart="24dp"
-                    android:layout_marginTop="9dp"
+                    android:layout_marginTop="10dp"
                     android:layout_marginEnd="17dp"
                     android:layout_toEndOf="@+id/imageView19"
                     app:srcCompat="@drawable/ba" />
@@ -491,5 +494,13 @@
             </RelativeLayout>
         </LinearLayout>
     </ScrollView>
+
+    <include
+        android:id="@+id/bottom_search"
+        layout="@layout/bottom_search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="0dp" />
 
 </RelativeLayout>
