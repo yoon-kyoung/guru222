@@ -38,8 +38,26 @@ class SignUpActivity : AppCompatActivity() {
     }
 
     private fun addUSerToDatabase(email: String, uid: String) {
+        // 사용자 정보를 저장할 노드 경로
+        val usersRef = mDbRef.child("users")
 
+        // 사용자 정보를 해시맵으로 생성합니다.
+        val userMap = HashMap<String, Any>()
+        userMap["email"] = email
+        userMap["uid"] = uid
+
+        // 파이어베이스 데이터베이스에 사용자 정보를 저장
+        usersRef.child(uid).setValue(userMap)
+            .addOnSuccessListener {
+                // 저장 성공시
+                Log.d("SignUp", "사용자 정보 저장 성공")
+            }
+            .addOnFailureListener { exception ->
+                // 저장 실패시
+                Log.e("SignUp", "사용자 정보 저장 실패", exception)
+            }
     }
+
 
     // 회원가입
     private fun signUp(email: String, password: String) {
