@@ -14,9 +14,9 @@
 
 
     </FrameLayout>
-        <ImageButton
+        <ImageView
             android:background="@color/white_A700"
-            android:id="@+id/btnArrowleft"
+            android:id="@+id/back"
             android:layout_height="25.35dp"
             android:layout_marginStart="20dp"
             android:layout_marginTop="35dp"

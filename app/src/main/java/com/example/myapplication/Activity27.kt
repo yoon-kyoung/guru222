@@ -1,7 +1,9 @@
 package com.example.myapplication
 
 import android.annotation.SuppressLint
+import android.content.Intent
 import android.os.Bundle
+import android.widget.ImageView
 import androidx.appcompat.app.AppCompatActivity
 import com.google.android.gms.maps.GoogleMap
 import com.google.android.gms.maps.SupportMapFragment
@@ -15,6 +17,14 @@ class Activity27 : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.search2)
+
+        var back=findViewById<ImageView>(R.id.back)
+
+        back.setOnClickListener {
+            var intent2 = Intent(this, Activity24_searching::class.java)
+            startActivity(intent2)
+        }
+
         // 맵 프래그먼트를 초기화합니다.
         mapFragment = supportFragmentManager.findFragmentById(R.id.map_fragment) as SupportMapFragment
         mapFragment.getMapAsync { mMap ->

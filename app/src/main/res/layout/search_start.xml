@@ -89,7 +89,7 @@
                     android:singleLine="true"
                     android:textStyle="bold"
                     android:textColor="@color/black"
-                    android:text="코타키나발루"/>
+                    android:text="라스베이거스"/>
             </LinearLayout>
 
             <LinearLayout

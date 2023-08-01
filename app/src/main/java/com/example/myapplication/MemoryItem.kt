@@ -26,6 +26,7 @@ class MemoryItem :AppCompatActivity(){
         val next = findViewById<AppCompatButton>(R.id.mybtn1)
         val memoey = findViewById<Button>(R.id.mybtn2)
         val more = findViewById<ImageView>(R.id.my7)
+        val search = findViewById<ImageView>(R.id.searchicon)
 
         next.setOnClickListener {
             var intent = Intent(this, Activity24_searching::class.java) //searching으로 이동
@@ -39,6 +40,11 @@ class MemoryItem :AppCompatActivity(){
 
         more.setOnClickListener {
             var intent2 = Intent(this, Activity25::class.java)
+            startActivity(intent2)
+        }
+
+        search.setOnClickListener {
+            var intent2 = Intent(this, Activity24_searching::class.java)
             startActivity(intent2)
         }
 
