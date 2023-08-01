@@ -137,9 +137,9 @@
         android:layout_below="@+id/imageView34"
         android:layout_alignStart="@+id/imageView33"
         android:layout_alignEnd="@+id/imageView33"
-        android:layout_marginStart="12dp"
-        android:layout_marginTop="-159dp"
-        android:layout_marginEnd="127dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="-158dp"
+        android:layout_marginEnd="129dp"
         android:text="떠나고 싶은 여행지를 찾아보세요." />
 
     <TextView
@@ -355,6 +355,7 @@
         android:layout_alignParentStart="true"
         android:layout_marginStart="36dp"
         android:layout_marginTop="41dp"
+        android:contentDescription="@string/app_name"
         app:srcCompat="@android:drawable/btn_dropdown" />
 
     <ImageView
@@ -376,43 +377,66 @@
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
         android:layout_marginEnd="16dp"
-        android:layout_marginBottom="216dp"
+        android:layout_marginBottom="315dp"
         app:srcCompat="@drawable/la" />
 
     <ImageView
         android:id="@+id/imageView19"
-        android:layout_width="185dp"
-        android:layout_height="138dp"
-        android:layout_below="@+id/imageView17"
+        android:layout_width="183dp"
+        android:layout_height="230dp"
+        android:layout_alignTop="@+id/imageView17"
         android:layout_alignParentStart="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="19dp"
-        android:layout_marginTop="30dp"
-        android:layout_marginBottom="62dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="147dp"
+        android:layout_marginBottom="90dp"
         app:srcCompat="@drawable/to" />
 
     <ImageView
         android:id="@+id/imageView20"
-        android:layout_width="178dp"
-        android:layout_height="211dp"
+        android:layout_width="177dp"
+        android:layout_height="229dp"
+        android:layout_alignTop="@+id/imageView18"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="21dp"
-        android:layout_marginEnd="15dp"
-        android:layout_marginBottom="23dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="164dp"
+        android:layout_marginEnd="19dp"
+        android:layout_marginBottom="94dp"
         android:layout_toEndOf="@+id/imageView19"
         app:srcCompat="@drawable/ba" />
 
+    <com.google.android.material.bottomappbar.BottomAppBar
+        android:id="@+id/bottomAppBar2"
+        android:layout_width="match_parent"
+        android:layout_height="84dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="bottom"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="1dp"
+        tools:ignore="BottomAppBar" />
+
     <ImageView
-        android:id="@+id/imageView23"
-        android:layout_width="212dp"
-        android:layout_height="49dp"
-        android:layout_alignTop="@+id/imageView18"
-        android:layout_alignEnd="@+id/imageView18"
-        android:layout_alignBottom="@+id/imageView18"
-        android:layout_marginTop="116dp"
-        android:layout_marginEnd="-16dp"
-        android:layout_marginBottom="7dp"
-        app:srcCompat="@drawable/latext" />
+        android:id="@+id/imageView5"
+        android:layout_width="254dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/textView14"
+        android:layout_alignBottom="@+id/textView14"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="17dp"
+        android:layout_marginBottom="-1dp"
+        app:srcCompat="@drawable/line" />
+
+    <ImageView
+        android:id="@+id/imageView21"
+        android:layout_width="398dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView16"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="3dp"
+        app:srcCompat="@drawable/ll" />
 
 </RelativeLayout>
