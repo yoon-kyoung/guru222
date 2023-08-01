@@ -107,8 +107,8 @@
                     android:layout_height="80dp"
                     android:layout_below="@+id/textView8"
                     android:layout_alignParentEnd="true"
-                    android:layout_marginTop="12dp"
-                    android:layout_marginEnd="121dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="173dp"
                     app:srcCompat="@drawable/green" />
 
                 <ImageView
@@ -117,9 +117,9 @@
                     android:layout_height="80dp"
                     android:layout_below="@+id/imageView33"
                     android:layout_alignParentEnd="true"
-                    android:layout_marginStart="-2dp"
-                    android:layout_marginTop="35dp"
-                    android:layout_marginEnd="17dp"
+                    android:layout_marginStart="-9dp"
+                    android:layout_marginTop="38dp"
+                    android:layout_marginEnd="40dp"
                     android:layout_toEndOf="@+id/imageView36"
                     app:srcCompat="@drawable/green" />
 
@@ -129,8 +129,8 @@
                     android:layout_height="80dp"
                     android:layout_below="@+id/imageView37"
                     android:layout_alignParentEnd="true"
-                    android:layout_marginTop="37dp"
-                    android:layout_marginEnd="23dp"
+                    android:layout_marginTop="35dp"
+                    android:layout_marginEnd="57dp"
                     app:srcCompat="@drawable/green" />
 
                 <TextView
@@ -188,21 +188,19 @@
                     android:layout_marginTop="-6dp"
                     android:fontFamily="@font/interbold"
                     android:text="일본 도쿄"
-                    android:textSize="15dp"
-                    tools:ignore="TextSizeCheck" />
+                    android:textSize="15dp" />
 
                 <TextView
                     android:id="@+id/textView19"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_alignTop="@+id/imageView20"
+                    android:layout_below="@+id/imageView34"
                     android:layout_alignParentStart="true"
                     android:layout_marginStart="289dp"
-                    android:layout_marginTop="154dp"
+                    android:layout_marginTop="663dp"
                     android:fontFamily="@font/interbold"
                     android:text="인도네시아 발리"
-                    android:textSize="15dp"
-                    tools:ignore="TextSizeCheck" />
+                    android:textSize="15dp" />
 
                 <TextView
                     android:id="@+id/textView17"
@@ -214,8 +212,7 @@
                     android:layout_marginTop="466dp"
                     android:fontFamily="@font/interbold"
                     android:text="미국 로스엔젤라스"
-                    android:textSize="15dp"
-                    tools:ignore="TextSizeCheck" />
+                    android:textSize="15dp" />
 
                 <TextView
                     android:id="@+id/textView23"
@@ -281,13 +278,13 @@
 
                 <TextView
                     android:id="@+id/textView25"
-                    android:layout_width="88dp"
+                    android:layout_width="67dp"
                     android:layout_height="wrap_content"
                     android:layout_below="@+id/imageView34"
                     android:layout_alignParentEnd="true"
-                    android:layout_marginStart="36dp"
-                    android:layout_marginTop="114dp"
-                    android:layout_marginEnd="43dp"
+                    android:layout_marginStart="60dp"
+                    android:layout_marginTop="117dp"
+                    android:layout_marginEnd="63dp"
                     android:layout_toEndOf="@+id/textView24"
                     android:text="요즘핫플" />
 
@@ -365,8 +362,8 @@
                     android:layout_height="67dp"
                     android:layout_alignEnd="@+id/imageView37"
                     android:layout_alignBottom="@+id/imageView37"
-                    android:layout_marginEnd="28dp"
-                    android:layout_marginBottom="6dp"
+                    android:layout_marginEnd="45dp"
+                    android:layout_marginBottom="7dp"
                     app:srcCompat="@drawable/city" />
 
                 <ImageView
@@ -397,8 +394,8 @@
                     android:layout_width="51dp"
                     android:layout_height="63dp"
                     android:layout_alignBottom="@+id/imageView41"
-                    android:layout_marginEnd="22dp"
-                    android:layout_marginBottom="9dp"
+                    android:layout_marginEnd="47dp"
+                    android:layout_marginBottom="7dp"
                     android:layout_toStartOf="@+id/imageView42"
                     app:srcCompat="@drawable/medal" />
 
@@ -494,13 +491,12 @@
             </RelativeLayout>
         </LinearLayout>
     </ScrollView>
-
     <include
         android:id="@+id/bottom_search"
         layout="@layout/bottom_search"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_marginBottom="0dp" />
+        android:layout_marginBottom="0dp"
+        android:layout_alignParentBottom="true" />
 
 </RelativeLayout>
