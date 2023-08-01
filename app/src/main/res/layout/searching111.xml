@@ -161,7 +161,7 @@
         android:layout_marginStart="59dp"
         android:layout_marginTop="466dp"
         android:fontFamily="@font/interbold"
-        android:fontsize="15dp"
+        android:textSize="15dp"
         android:text="스위스 그린델발트" />
 
     <TextView
@@ -173,7 +173,7 @@
         android:layout_marginStart="85dp"
         android:layout_marginTop="661dp"
         android:fontFamily="@font/interbold"
-        android:fontsize="15dp"
+        android:textSize="15dp"
         android:text="일본 도쿄" />
 
     <TextView
@@ -185,7 +185,7 @@
         android:layout_marginStart="259dp"
         android:layout_marginTop="661dp"
         android:fontFamily="@font/interbold"
-        android:fontsize="15dp"
+        android:textSize="15dp"
         android:text="인도네시아 발리" />
 
     <TextView
@@ -197,7 +197,7 @@
         android:layout_marginStart="257dp"
         android:layout_marginTop="464dp"
         android:fontFamily="@font/interbold"
-        android:fontsize="15dp"
+        android:textSize="15dp"
         android:text="미국 로스엔젤라스" />
 
     <TextView
