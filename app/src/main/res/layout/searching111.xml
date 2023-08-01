@@ -360,7 +360,9 @@
         android:layout_width="195dp"
         android:layout_height="137dp"
         android:layout_below="@+id/textView16"
-        android:layout_marginTop="9dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="17dp"
         android:layout_marginEnd="16dp"
         android:layout_toStartOf="@+id/imageView18"
         app:srcCompat="@drawable/swi" />
@@ -371,8 +373,20 @@
         android:layout_height="155dp"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="15dp"
-        android:layout_marginBottom="170dp"
+        android:layout_marginEnd="18dp"
+        android:layout_marginBottom="220dp"
         app:srcCompat="@drawable/la" />
+
+    <ImageView
+        android:id="@+id/imageView19"
+        android:layout_width="191dp"
+        android:layout_height="145dp"
+        android:layout_below="@+id/imageView17"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="19dp"
+        android:layout_marginTop="19dp"
+        android:layout_marginBottom="67dp"
+        app:srcCompat="@drawable/to" />
 
 </RelativeLayout>
