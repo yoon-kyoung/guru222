@@ -37,6 +37,7 @@
         <activity android:name=".Activity20" android:exported="true"/>
         <activity android:name=".Activity21" android:exported="true"/>
         <activity android:name=".Activity22_mbti_result" android:exported="true"/>
+        <activity android:name=".Activity23_efsp" android:exported="true"/>
         <activity android:name=".Activity24_searching" android:exported="true"/>
         <activity android:name=".Activity25" android:exported="true"/>
         <activity android:name=".Activity26" android:exported="true"/>

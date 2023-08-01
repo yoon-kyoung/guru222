@@ -23,6 +23,7 @@
                 android:layout_marginTop="5dp"
                 android:layout_height="20dp"
                 android:layout_width="10dp"
+                android:id="@+id/back"
                 tools:src="@drawable/img_arrowleft"/>
 
             <TextView
@@ -631,4 +632,5 @@
             </LinearLayout>
         </LinearLayout>
     </androidx.core.widget.NestedScrollView>
+    
 </LinearLayout>

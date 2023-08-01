@@ -18,7 +18,7 @@ class Activity21 : AppCompatActivity() {
 
 
         next.setOnClickListener {
-            var intent = Intent(this, Activity22_mbti_result::class.java)
+            var intent = Intent(this, Activity23_efsp::class.java)
             startActivity(intent)
         }
 

@@ -33,7 +33,7 @@ class MemoryItem :AppCompatActivity(){
         }
 
         memoey.setOnClickListener {
-            var intent2 = Intent(this, Activity26::class.java)
+            var intent2 = Intent(this, MemoryReg::class.java)
             startActivity(intent2)
         }
 
